@@ -15,7 +15,7 @@ Users:
     Limit_Reached_Time: 0
     Limit: 0
   4e652eb0-f42e-34fb-8424-539c2da8221f:
-    Night_Vision: true
+    Night_Vision: false
     Limit_Reached: false
     Reset_Timer_Active: false
     Limit_Reached_Time: 0

@@ -1,6 +1,6 @@
 UltraCosmetics v3.4.2 permissions.
 
-Generated automatically on 4/28/24
+Generated automatically on 5/5/24
 
 ### General permissions, enabled by default:
   - ultracosmetics.receivechest
