@@ -220,3 +220,38 @@
 [18:15:58] [Thread-8/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [18:19:58] [Thread-8/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [18:23:59] [Thread-8/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[18:24:52] [Server thread/INFO]: Stopping the server
+[18:24:52] [Server thread/INFO]: Stopping server
+[18:24:52] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[18:24:52] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:24:52] [Server thread/INFO]: [AntiPopup] Disabling AntiPopup v7.3
+[18:24:52] [Server thread/INFO]: [AntiPopup] Disabled PacketEvents.
+[18:24:52] [Server thread/INFO]: [spark] Disabling spark v1.10.73
+[18:24:52] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[18:24:52] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[18:24:52] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:24:52] [Server thread/INFO]: Saving players
+[18:24:52] [Server thread/INFO]: Saving worlds
+[18:24:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:24:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:24:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:24:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:24:52] [Server thread/INFO]: [ChunkHolderManager] Saved 1473 block chunks, 137 entity chunks, 0 poi chunks in world 'world' in 0.61s
+[18:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:24:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:24:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:24:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:24:53] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 12 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[18:24:53] [Thread-8/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[18:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:24:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:24:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:24:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:24:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:24:53] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[18:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:24:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:24:53] [Server thread/INFO]: Flushing Chunk IO
+[18:24:53] [Server thread/INFO]: Closing Thread Pool
+[18:24:53] [Server thread/INFO]: Closing Server
