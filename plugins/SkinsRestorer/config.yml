@@ -20,6 +20,7 @@
 
 # (!) IF YOU ARE USING A PROXY (BungeeCord, Waterfall or Velocity), YOU NEED TO INSTALL SKINSRESTORER ON THE PROXY AND ALL SERVERS! (!)
 # (!) YOU ALSO NEED TO CONFIGURE YOUR SERVERS TO DETECT THE PROXY! (!)
+# (!) AND YOU ALSO NEED TO PUT THE SAME CONFIG FILE IN ALL PROXIES AND SERVERS! (!)
 # (!) You can find detailed proxy instructions here: https://skinsrestorer.net/docs/installation
 
 ##########
@@ -48,8 +49,6 @@ messages:
 ############
 
 # Settings for databases skin storage (recommended for large networks with a lot of skins)
-# [!] IF YOU USE A PROXY, DO NOT ENABLE MYSQL in the Spigot / Backend config.yml [!]
-# [!] Non-root users: MySQL 8's new default authentication is not supported, use mysql_native_password [!]
 # [!] Make sure you have the correct permissions set for your MySQL user. [!]
 # [!] Make sure to fill in database.connectionOptions if you're using certificate / ssl authentication. [!]
 # [!] If you're not using ssl, change sslMode=trust to sslMode=disable [!]
@@ -72,8 +71,10 @@ database:
 # To learn more about commands and permissions, visit: https://skinsrestorer.net/docs/configuration/commands-permissions
 commands:
     # For all player commands to work by default, you need to give players the permission 'skinsrestorer.player'.
-    # This option allows you to force the default permission (skinsrestorer.player) to be given to all players if the value is not set explicitly.
+    # This option allows you to force the default permission (skinsrestorer.player) to be given to all players.
     # A value of 'false' will disable this behaviour, and players will need to be given the permission explicitly.
+    # This is because some platforms (like BungeeCord) do not have a default permission system.
+    # If your platform supports default permissions, this option is ignored.
     forceDefaultPermissions: true
     # Players cooldown in seconds when changing skins (set to 0 to disable).
     # SkinErrorCooldown is used when an error or invalid url occurs.
@@ -130,11 +131,12 @@ commands:
     # Do not disable this unless you are overriding the /skins command with a different plugin or you don't want the GUI command.
     # Requires a server restart to take effect.
     disableGUICommand: false
+
 # Custom skins for the /skins GUI.
 # This setting will allow custom skins to be shown in the GUI.
 # customGUI.showOnlyCustomGUI will allow only custom skins from customGUI.list to show up in the GUI.
 customGUI:
-    enabled: false
+    enabled: true
     showOnlyCustomGUI: false
     list: 
     - xknat
@@ -203,6 +205,13 @@ server:
     # Dismounts all passengers mounting a player (such as plugins that let you ride another player), preventing those players from becoming desynced.
     # File override = ./plugins/SkinsRestorer/enableDismountEntities.txt
     dismountPassengersOnSkinUpdate: false
+    sound:
+        # Play a sound when a player runs /skin to change their skin.
+        enabled: true
+        # Sound to play when a player runs /skin to change their skin.
+        # You can find the allowed format and values at
+        # https://javadoc.io/static/com.github.cryptomorin/XSeries/11.0.0/com/cryptomorin/xseries/XSound.html#parse(java.lang.String)
+        value: ENTITY_PLAYER_TELEPORT, 0.7
 login:
     # Stops the process of setting a skin if the LoginEvent was canceled by an AntiBot plugin.
     # [?] Unsure? leave this true for better performance.
@@ -268,20 +277,18 @@ dev:
 # End #
 
 # Useful tools:
-# Vectier Thailand has made some super cool "Custom Skin" tools that you can use!
 # 
 # SkinFile Generator:
 # With SkinFile Generator, you can upload your own custom skin to get a unique .skin file that you can put in your skins folder, to use with SkinsRestorer.
-# Check it out here: https://skinsrestorer.github.io/SkinFile-Generator/
+# Check it out here: https://generator.skinsrestorer.net
 # 
-# SkinSystem :
-# With SkinSystem, you, as a server owner, can connect AuthMe (and forum) with the SkinSystem website that you can host, to give your players the ability to upload custom skins.
+# SkinSystem:
+# With SkinSystem, you, as a server owner, can connect AuthMe with the SkinSystem website that you can host, to give your players the ability to upload custom skins.
 # Check it out here: https://github.com/SkinsRestorer/SkinSystem
 # 
 # Useful Links #
-# Website: https://skinsrestorer.net/
-# Download: https://github.com/SkinsRestorer/SkinsRestorerX/releases
-# Wiki https://github.com/SkinsRestorer/SkinsRestorerX/wiki/
-# Spigot: https://www.spigotmc.org/resources/skinsrestorer.2124/
-# Github: https://github.com/SkinsRestorer/SkinsRestorerX/
-# Discord: https://discord.me/SkinsRestorer/
+# Website: https://skinsrestorer.net
+# Docs: https://skinsrestorer.net/docs
+# Spigot: https://skinsrestorer.net/spigot
+# Github: https://github.com/SkinsRestorer/SkinsRestorer
+# Discord: https://skinsrestorer.net/discord
