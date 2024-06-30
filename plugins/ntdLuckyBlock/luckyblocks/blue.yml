@@ -1,0 +1,98 @@
+texture: 8534b17d2d3b5a64c57f5f080dd777945761d9f71d82e8f599f242976e4d0c05
+name: '&1Blue LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ENTITY : FOX : 2'
+  - 'LUCKY_BLOCK_ITEM : TINTED : 4'
+  '1':
+  - 'ITEM : END_STONE_BRICK_WALL : 16 : 0'
+  '2':
+  - 'ITEM : ARCHER_POTTERY_SHERD : 29 : 0'
+  - 'LUCKY_BLOCK_ITEM : CYAN : 4'
+  - 'ITEM : BRICK : 23 : 0'
+  '3':
+  - 'ENTITY : DRAGON_FIREBALL : 1'
+  - 'ENTITY : VEX : 3'
+  '4':
+  - 'ENTITY : GLOW_SQUID : 2'
+  - 'LUCKY_BLOCK_ITEM : RED : 2'
+  - 'ITEM : BLACK_STAINED_GLASS_PANE : 64 : 0'
+  '5':
+  - 'ITEM : WAXED_COPPER_BLOCK : 8 : 0'
+  - 'ITEM : CRACKED_NETHER_BRICKS : 64 : 0'
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 1'
+  '6':
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ITEM : SAND : 16 : 0'
+  '7':
+  - 'LUCKY_BLOCK_ITEM : MAGENTA : 3'
+  '8':
+  - 'ITEM : DEAD_BRAIN_CORAL_FAN : 64 : 0'
+  - 'LUCKY_BLOCK_ITEM : CYAN : 2'
+  '9':
+  - 'ITEM : PURPLE_CANDLE : 32 : 0'
+  - 'ITEM : PURPLE_BED : 1 : 0'
+  '10':
+  - 'ENTITY : MINECART_COMMAND : 2'
+  - 'LUCKY_BLOCK_ITEM : BLUE : 3'
+  - 'ENTITY : TADPOLE : 2'
+  - 'ITEM : TUBE_CORAL_FAN : 16 : 0'
+  '11':
+  - 'ITEM : CRIMSON_PLANKS : 64 : 0'
+  - 'ENTITY : CHEST_BOAT : 4'
+  '12':
+  - 'ITEM : CHERRY_CHEST_BOAT : 1 : 0'
+  - 'LUCKY_BLOCK_ITEM : PINK : 3'
+  - 'ITEM : ENDER_CHEST : 64 : 0'
+  - 'ITEM : GRAY_STAINED_GLASS : 16 : 0'
+  '13':
+  - 'ITEM : FIRE_CORAL : 32 : 0'
+  - 'ITEM : RABBIT_STEW : 1 : 0'
+  '14':
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  - 'ITEM : GOLDEN_SWORD : 1 : 0'
+  '15':
+  - 'ITEM : END_ROD : 16 : 0'
+  - 'LUCKY_BLOCK_ITEM : MAGENTA : 4'
+  '16':
+  - 'ITEM : JUNGLE_BOAT : 1 : 0'
+  '17':
+  - 'ITEM : IRON_AXE : 1 : 0'
+  - 'ITEM : LIME_CANDLE : 16 : 0'
+  '18':
+  - 'ITEM : SMOOTH_STONE : 64 : 0'
+  - 'ENTITY : WITCH : 3'
+  '19':
+  - 'ITEM : AXOLOTL_SPAWN_EGG : 61 : 0'
+  - 'ITEM : TARGET : 64 : 0'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  '20':
+  - 'ENTITY : LEASH_HITCH : 1'
+  '21':
+  - 'ENTITY : VEX : 3'
+  '22':
+  - 'ITEM : PINK_BED : 1 : 0'
+  '23':
+  - 'ITEM : CHORUS_PLANT : 32 : 0'
+  - 'LUCKY_BLOCK_ITEM : MAGENTA : 2'
+  - 'ITEM : BLACKSTONE_SLAB : 16 : 0'
+  - 'ENTITY : HORSE : 2'
+  '24':
+  - 'ITEM : NETHER_BRICK_FENCE : 64 : 0'
+  - 'ENTITY : PRIMED_TNT : 1'
+  '25':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'LUCKY_BLOCK_ITEM : RED : 3'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  '26':
+  - 'LUCKY_BLOCK_ITEM : MAGENTA : 1'

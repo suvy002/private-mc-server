@@ -1,0 +1,96 @@
+texture: 65fed46b39c6c34d491143b72ce728797d16f9b5aa40bbdec61667f5ff9d3d45
+name: '&bLight blue LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : VEX_SPAWN_EGG : 30 : 0'
+  - 'ITEM : HONEYCOMB : 37 : 0'
+  '1':
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ITEM : LEATHER_HORSE_ARMOR : 1 : 0'
+  - 'ENTITY : TEXT_DISPLAY : 3'
+  '2':
+  - 'ITEM : WHITE_BED : 1 : 0'
+  - 'ITEM : TRIDENT : 1 : 0'
+  '3':
+  - 'ENTITY : MINECART : 4'
+  - 'ITEM : BLACK_GLAZED_TERRACOTTA : 32 : 0'
+  - 'ENTITY : DOLPHIN : 2'
+  '4':
+  - 'ITEM : BROWN_MUSHROOM_BLOCK : 32 : 0'
+  '5':
+  - 'ITEM : GRAY_CARPET : 64 : 0'
+  - 'LUCKY_BLOCK_ITEM : BLACK : 2'
+  '6':
+  - 'ITEM : INFESTED_CHISELED_STONE_BRICKS : 64 : 0'
+  - 'ENTITY : FIREBALL : 3'
+  - 'ITEM : ACACIA_BUTTON : 64 : 0'
+  '7':
+  - 'ITEM : FLINT : 42 : 0'
+  - 'ITEM : NETHERITE_PICKAXE : 1 : 0'
+  - 'ITEM : NETHERITE_PICKAXE : 1 : 0'
+  - 'ENTITY : WARDEN : 2'
+  '8':
+  - 'LUCKY_BLOCK_ITEM : RED : 3'
+  - 'ITEM : BLUE_GLAZED_TERRACOTTA : 16 : 0'
+  '9':
+  - 'ENTITY : TRADER_LLAMA : 4'
+  - 'ITEM : COOKED_BEEF : 58 : 0'
+  '10':
+  - 'ENTITY : BLAZE : 3'
+  '11':
+  - 'ENTITY : DOLPHIN : 1'
+  - 'ITEM : BEE_NEST : 16 : 0'
+  '12':
+  - 'ENTITY : VILLAGER : 2'
+  - 'ITEM : SANDSTONE_WALL : 16 : 0'
+  - 'ITEM : REDSTONE_LAMP : 32 : 0'
+  '13':
+  - 'ITEM : COMPASS : 39 : 0'
+  - 'SPECIAL : PIG : 7'
+  - 'ITEM : DIAMOND_AXE : 1 : 0'
+  '14':
+  - 'ENTITY : MINECART_HOPPER : 2'
+  - 'ENTITY : IRON_GOLEM : 4'
+  '15':
+  - 'ITEM : CHERRY_LEAVES : 32 : 0'
+  - 'LUCKY_BLOCK_ITEM : MAGENTA : 1'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  '16':
+  - 'ITEM : OAK_TRAPDOOR : 32 : 0'
+  - 'ENTITY : TRADER_LLAMA : 4'
+  - 'ITEM : HONEYCOMB : 36 : 0'
+  '17':
+  - 'ITEM : PURPUR_SLAB : 64 : 0'
+  - 'ITEM : BAMBOO : 32 : 0'
+  '18':
+  - 'LUCKY_BLOCK_ITEM : RED : 2'
+  - 'ENTITY : SPECTRAL_ARROW : 3'
+  - 'ITEM : CUT_COPPER_SLAB : 64 : 0'
+  - 'ITEM : MAGENTA_CONCRETE_POWDER : 64 : 0'
+  '19':
+  - 'ITEM : WITHER_SKELETON_SKULL : 32 : 0'
+  '20':
+  - 'LUCKY_BLOCK_ITEM : GRAY : 3'
+  - 'ITEM : MOOSHROOM_SPAWN_EGG : 8 : 0'
+  '21':
+  - 'ENTITY : AREA_EFFECT_CLOUD : 4'
+  - 'ENTITY : MULE : 4'
+  - 'ITEM : LIME_CARPET : 64 : 0'
+  - 'ENTITY : LLAMA_SPIT : 1'
+  '22':
+  - 'ENTITY : ENDER_CRYSTAL : 1'
+  - 'ITEM : ARMS_UP_POTTERY_SHERD : 41 : 0'
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '23':
+  - 'ENTITY : WARDEN : 1'
+  - 'ITEM : ACACIA_BUTTON : 16 : 0'

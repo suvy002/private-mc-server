@@ -1,0 +1,162 @@
+texture: 1f23685c697ba55edda425ecf1fec72feeb7bb985c6506b2cef070515e4e5492
+name: '&dMagenta LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'ITEM : CYAN_BANNER : 16 : 0'
+  - 'ENTITY : BLAZE : 2'
+  '1':
+  - 'ITEM : ORANGE_CONCRETE_POWDER : 64 : 0'
+  - 'ITEM : JUNGLE_SAPLING : 64 : 0'
+  - 'ITEM : STRIPPED_MANGROVE_LOG : 64 : 0'
+  - 'ITEM : BRUSH : 1 : 0'
+  '2':
+  - 'ENTITY : WARDEN : 3'
+  '3':
+  - 'LUCKY_BLOCK_ITEM : ICED : 3'
+  '4':
+  - 'ITEM : GRANITE : 32 : 0'
+  - 'ITEM : TINTED_GLASS : 64 : 0'
+  '5':
+  - 'ENTITY : ARMOR_STAND : 4'
+  - 'ENTITY : EVOKER_FANGS : 2'
+  - 'ENTITY : CAVE_SPIDER : 1'
+  '6':
+  - 'ITEM : MANGROVE_TRAPDOOR : 16 : 0'
+  - 'ITEM : BROWN_BANNER : 16 : 0'
+  '7':
+  - 'ITEM : COW_SPAWN_EGG : 42 : 0'
+  '8':
+  - 'LUCKY_BLOCK_ITEM : BLUE : 2'
+  - 'ENTITY : WITHER : 4'
+  '9':
+  - 'ENTITY : SMALL_FIREBALL : 1'
+  - 'ITEM : SNOW_GOLEM_SPAWN_EGG : 2 : 0'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  '10':
+  - 'ITEM : LEATHER_HELMET : 1 : 0'
+  - 'ITEM : STRIPPED_JUNGLE_WOOD : 64 : 0'
+  - 'ENTITY : ILLUSIONER : 1'
+  '11':
+  - 'ITEM : AZURE_BLUET : 64 : 0'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  '12':
+  - 'ITEM : STRIPPED_BAMBOO_BLOCK : 32 : 0'
+  '13':
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ENTITY : AREA_EFFECT_CLOUD : 3'
+  '14':
+  - 'ENTITY : GOAT : 3'
+  - 'ENTITY : CAMEL : 4'
+  '15':
+  - 'ITEM : CAMEL_SPAWN_EGG : 9 : 0'
+  - 'ENTITY : TURTLE : 3'
+  '16':
+  - 'ITEM : POPPY : 64 : 0'
+  - 'ENTITY : COD : 4'
+  - 'ENTITY : ARROW : 4'
+  '17':
+  - 'ITEM : JUNGLE_SIGN : 16 : 0'
+  - 'ENTITY : ENDER_CRYSTAL : 4'
+  - 'LUCKY_BLOCK_ITEM : LIGHT_GRAY : 1'
+  '18':
+  - 'ENTITY : MINECART_CHEST : 2'
+  '19':
+  - 'ITEM : WOODEN_SWORD : 1 : 0'
+  - 'ITEM : RED_NETHER_BRICKS : 16 : 0'
+  - 'ENTITY : ALLAY : 3'
+  '20':
+  - 'ITEM : INFESTED_STONE_BRICKS : 8 : 0'
+  - 'SPECIAL : LIGHTNING : 3'
+  '21':
+  - 'ITEM : ACACIA_DOOR : 16 : 0'
+  - 'ENTITY : SKELETON : 1'
+  - 'ITEM : COOKED_PORKCHOP : 22 : 0'
+  '22':
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'SPECIAL : PIG : 4'
+  '23':
+  - 'ENTITY : MINECART : 3'
+  - 'ENTITY : PRIMED_TNT : 4'
+  '24':
+  - 'ENTITY : INTERACTION : 3'
+  - 'ENTITY : SHULKER_BULLET : 2'
+  '25':
+  - 'ENTITY : CAVE_SPIDER : 3'
+  '26':
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  '27':
+  - 'ITEM : ZOMBIE_VILLAGER_SPAWN_EGG : 10 : 0'
+  - 'ENTITY : EGG : 2'
+  '28':
+  - 'ENTITY : AREA_EFFECT_CLOUD : 2'
+  '29':
+  - 'ITEM : CHISELED_QUARTZ_BLOCK : 64 : 0'
+  - 'LUCKY_BLOCK_ITEM : YELLOW : 1'
+  - 'LUCKY_BLOCK_ITEM : RED : 4'
+  '30':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 1'
+  - 'ENTITY : MINECART_HOPPER : 2'
+  '31':
+  - 'ITEM : DRAGON_BREATH : 2 : 0'
+  - 'ENTITY : SHEEP : 3'
+  '32':
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'ENTITY : EXPERIENCE_ORB : 3'
+  '33':
+  - 'LUCKY_BLOCK_ITEM : ORANGE : 4'
+  '34':
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 1'
+  '35':
+  - 'ITEM : MELON : 64 : 0'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  '36':
+  - 'ENTITY : BEE : 3'
+  - 'ENTITY : DONKEY : 1'
+  '37':
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ITEM : RED_WOOL : 16 : 0'
+  '38':
+  - 'ITEM : JUNGLE_SIGN : 16 : 0'
+  - 'ENTITY : TRIDENT : 4'
+  - 'ITEM : RED_CANDLE : 64 : 0'
+  '39':
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'ITEM : LEATHER_BOOTS : 1 : 0'
+  - 'ITEM : GHAST_SPAWN_EGG : 26 : 0'
+  '40':
+  - 'LUCKY_BLOCK_ITEM : PINK : 4'
+  - 'ENTITY : PAINTING : 1'
+  - 'ITEM : BEACON : 16 : 0'
+  '41':
+  - 'ENTITY : SKELETON : 2'
+  '42':
+  - 'ENTITY : MAGMA_CUBE : 4'
+  - 'ITEM : GREEN_CONCRETE : 64 : 0'
+  - 'ENTITY : SKELETON_HORSE : 4'
+  '43':
+  - 'ENTITY : PAINTING : 2'
+  - 'ITEM : DEAD_BUSH : 64 : 0'
+  '44':
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  '45':
+  - 'ENTITY : GLOW_ITEM_FRAME : 3'
+  - 'ITEM : SPRUCE_BUTTON : 32 : 0'
+  - 'ENTITY : PIGLIN : 4'
+  - 'ENTITY : LLAMA_SPIT : 2'
+  '46':
+  - 'ITEM : DUNE_ARMOR_TRIM_SMITHING_TEMPLATE : 16 : 0'
+  - 'LUCKY_BLOCK_ITEM : ORANGE : 1'
+  '47':
+  - 'ENTITY : SKELETON_HORSE : 3'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
