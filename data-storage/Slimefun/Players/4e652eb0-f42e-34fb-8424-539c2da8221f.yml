@@ -254,3 +254,232 @@ researches:
   '123': true
   '125': true
   '143': true
+backpacks:
+  '0':
+    size: 54
+    contents:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: DIAMOND_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Explosive
+            Shovel"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Allows
+            you to mine a good bit"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"of
+            diggable Blocks at once..."}],"text":""}'
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "EXPLOSIVE_SHOVEL"
+            }
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: DIAMOND_HOE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Soulbound
+            Hoe"}],"text":""}'
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "SOULBOUND_HOE"
+            }
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: EMERALD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Talisman
+            of the Caveman"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"While
+            you have this Talisman"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"in
+            your inventory it gives"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"you
+            a 50% chance for a decent"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Haste
+            buff when you mine any ore"}],"text":""}'
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "CAVEMAN_TALISMAN"
+            }
+      '3':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: EMERALD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Talisman
+            of the Wise"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"While
+            you have this Talisman"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"in
+            your inventory it gives"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"you
+            a 20% chance of doubling"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"any
+            experience you obtain"}],"text":""}'
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "WISE_TALISMAN"
+            }
+      '4':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: EMERALD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Talisman
+            of the Whirlwind"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Having
+            this Talisman"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"in
+            your Inventory will reflect"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"60%
+            of any projectiles fired at you."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Only
+            a thrown Trident can pierce"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"through
+            this layer of protection"}],"text":""}'
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "WHIRLWIND_TALISMAN"
+            }
+      '5':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: EMERALD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Talisman
+            of the Hunter"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"While
+            you have this Talisman"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"in
+            your Inventory it has"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"a
+            20% chance of doubling"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"all
+            Drops from Mobs you kill"}],"text":""}'
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "HUNTER_TALISMAN"
+            }
+      '6':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: EMERALD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Talisman
+            of the Farmer"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"While
+            you have this Talisman"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"in
+            your Inventory it has"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"a
+            20% chance of doubling"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"all
+            crops you harvest"}],"text":""}'
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "FARMER_TALISMAN"
+            }
+      '7':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: EMERALD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Talisman
+            of the Miner"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"While
+            you have this Talisman"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"in
+            your Inventory it has"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"a
+            20% chance of doubling"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"all
+            Ores you mine"}],"text":""}'
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "MINER_TALISMAN"
+            }
+      '8':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: EMERALD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Talisman
+            of the Magician"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"While
+            you have this Talisman"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"in
+            your Inventory it gives"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"you
+            a 80% Luck Bonus on Enchanting"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"You
+            will sometimes get an Extra Enchantment"}],"text":""}'
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "MAGICIAN_TALISMAN"
+            }
+  '1':
+    size: 27
+    contents:
+      '26':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Golden
+            Apple Juice"}],"text":""}'
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "GOLDEN_APPLE_JUICE"
+            }
+          custom-color:
+            ==: Color
+            ALPHA: 255
+            RED: 255
+            BLUE: 0
+            GREEN: 255
+          custom-effects:
+          - ==: PotionEffect
+            effect: minecraft:absorption
+            duration: 400
+            amplifier: 0
+            ambient: true
+            has-particles: true
+            has-icon: true
