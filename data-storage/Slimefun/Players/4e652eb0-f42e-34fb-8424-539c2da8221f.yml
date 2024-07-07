@@ -497,14 +497,17 @@ backpacks:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Pickaxe
-            of Vein Mining"}],"text":""}'
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Explosive
+            Pickaxe"}],"text":""}'
           lore:
           - '{"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"This
-            Pickaxe will dig out"}],"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"whole
-            Veins of Ores..."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Allows
+            you to mine a good bit"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"of
+            Blocks at once..."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Works
+            with Fortune"}],"text":""}'
           enchants:
             DIG_SPEED: 5
             LOOT_BONUS_BLOCKS: 3
@@ -513,7 +516,7 @@ backpacks:
             VANISHING_CURSE: 1
           PublicBukkitValues: |-
             {
-                "slimefun:slimefun_item": "PICKAXE_OF_VEIN_MINING"
+                "slimefun:slimefun_item": "EXPLOSIVE_PICKAXE"
             }
       '1':
         ==: org.bukkit.inventory.ItemStack
@@ -675,9 +678,51 @@ backpacks:
       '10':
         ==: org.bukkit.inventory.ItemStack
         v: 3578
-        type: FIRE_CHARGE
+        type: WHITE_WOOL
+        amount: 3
       '11':
         ==: org.bukkit.inventory.ItemStack
         v: 3578
-        type: WHITE_WOOL
-        amount: 3
+        type: FIREWORK_STAR
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: FIREWORK_EFFECT
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Ancient
+            Rune "},{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_purple","text":"Soulbound"},{"bold":true,"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Drop
+            this rune onto a dropped item to"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"bind
+            "},{"italic":false,"color":"yellow","text":"that item to your soul."}],"text":""}'
+          - '{"extra":[{"text":" "}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"It
+            is advised that you only use this rune"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"on
+            "},{"italic":false,"color":"gold","text":"important "},{"italic":false,"color":"yellow","text":"items."}],"text":""}'
+          - '{"extra":[{"text":" "}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Items
+            bound to your soul won''t drop on death."}],"text":""}'
+          ItemFlags:
+          - HIDE_POTION_EFFECTS
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "ANCIENT_RUNE_SOULBOUND"
+            }
+          firework-effect:
+            ==: Firework
+            flicker: false
+            trail: false
+            colors:
+            - ==: Color
+              ALPHA: 255
+              RED: 47
+              BLUE: 117
+              GREEN: 0
+            fade-colors: []
+            type: BURST
+      '9':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: IRON_INGOT
+        amount: 25
