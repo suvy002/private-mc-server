@@ -724,8 +724,8 @@ backpacks:
       '9':
         ==: org.bukkit.inventory.ItemStack
         v: 3578
-        type: IRON_INGOT
-        amount: 25
+        type: IRON_BLOCK
+        amount: 4
       '12':
         ==: org.bukkit.inventory.ItemStack
         v: 3578
