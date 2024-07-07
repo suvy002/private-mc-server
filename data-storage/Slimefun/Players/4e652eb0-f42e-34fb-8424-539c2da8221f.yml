@@ -726,3 +726,19 @@ backpacks:
         v: 3578
         type: IRON_INGOT
         amount: 25
+      '12':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+      '13':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE
+      '14':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: SADDLE
+      '15':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: SADDLE
