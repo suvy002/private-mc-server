@@ -1,0 +1,483 @@
+[04:31:22] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:31:23] [ServerMain/INFO]: Loaded 1174 recipes
+[04:31:23] [ServerMain/INFO]: Loaded 1271 advancements
+[04:31:23] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[04:31:23] [Server thread/INFO]: Loading properties
+[04:31:23] [Server thread/INFO]: This server is running Purpur version git-Purpur-2095 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 4f12f5d on HEAD)
+[04:31:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:31:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:31:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[04:31:25] [Server thread/WARN]: [Pufferfish] Will not enable SIMD! These optimizations are only safely supported on Java 17, Java 18, and Java 19.
+[04:31:25] [Server thread/INFO]: Default game type: SURVIVAL
+[04:31:25] [Server thread/INFO]: Generating keypair
+[04:31:25] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:41177
+[04:31:25] [Server thread/INFO]: Using epoll channel type
+[04:31:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:31:25] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:31:25] [Server thread/INFO]: [SpigotLibraryLoader] [AntiPopup] Loading 1 libraries... please wait
+[04:31:25] [Server thread/INFO]: [SpigotLibraryLoader] [AntiPopup] Loaded library /workspaces/private-mc-server/libraries/dev/dejvokep/boosted-yaml-spigot/1.3/boosted-yaml-spigot-1.3.jar
+[04:31:26] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.1
+[04:31:26] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.1 is now loaded. Registering protocol transformers and injecting...
+[04:31:26] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[04:31:27] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[04:31:27] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[04:31:27] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[04:31:27] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[04:31:27] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.1
+[04:31:27] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.16+6534-2066eb4
+[04:31:28] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@33b39716]
+[04:31:28] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.73
+[04:31:28] [Server thread/INFO]: [AntiPopup] Loading server plugin AntiPopup v7.3
+[04:31:28] [Server thread/INFO]: [AntiPopup] Loaded PacketEvents.
+[04:31:28] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.6.2-3e052553
+[04:31:28] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[04:31:28] [Server thread/INFO]: [MythicMobs] §4M§6y§6t§6h§2i§2c§2 §3E§3n§1a§1b§1l§5e§5d§4!
+[04:31:28] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[04:31:28] [Server thread/INFO]: [Slimefun] Loading server plugin Slimefun vDev - 1148
+[04:31:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:31:28] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[04:31:28] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[04:31:28] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[04:31:28] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.16+6534-2066eb4
+[04:31:28] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[04:31:28] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[04:31:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R2.PaperweightAdapter as the Bukkit adapter
+[04:31:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:31:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:31:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:31:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:31:30] [Server thread/INFO]: Preparing level "world"
+[04:31:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:31:31] [Server thread/INFO]: Time elapsed: 211 ms
+[04:31:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:31:31] [Server thread/INFO]: Time elapsed: 78 ms
+[04:31:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:31:31] [Server thread/INFO]: Time elapsed: 46 ms
+[04:31:31] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.1
+[04:31:31] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.2 (764)
+[04:31:31] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.1
+[04:31:31] [Server thread/INFO]: [spark] Enabling spark v1.10.73
+[04:31:32] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[04:31:32] [Server thread/INFO]: [spark] Starting background profiler...
+[04:31:32] [Server thread/INFO]: [AntiPopup] Enabling AntiPopup v7.3
+[04:31:32] [Server thread/INFO]: [AntiPopup] Config enabled.
+[04:31:32] [Server thread/INFO]: [AntiPopup] Initiated PacketEvents.
+[04:31:32] [Server thread/INFO]: [AntiPopup] Hooked on 1.20.2
+[04:31:32] [Server thread/INFO]: [AntiPopup] Commands registered.
+[04:31:32] [Server thread/INFO]: [AntiPopup] Logger filter enabled.
+[04:31:32] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.6.2-3e052553
+[04:31:33] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.2)...
+[04:31:33] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[04:31:33] [Server thread/ERROR]: Error occurred while enabling MythicMobs v5.6.2-3e052553 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "org.bukkit.configuration.ConfigurationSection.isSet(String)" because "section" is null
+	at io.lumine.mythic.bukkit.utils.config.properties.PropertyType.getset(PropertyType.java:178) ~[MythicMobs-5.6.2.jar:?]
+	at io.lumine.mythic.core.config.ConfigExecutor.loadConfigSettings(ConfigExecutor.java:602) ~[MythicMobs-5.6.2.jar:?]
+	at io.lumine.mythic.core.config.ConfigExecutor.firstLoad(ConfigExecutor.java:404) ~[MythicMobs-5.6.2.jar:?]
+	at io.lumine.mythic.bukkit.MythicBukkit.enable(MythicBukkit.java:160) ~[MythicMobs-5.6.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.onEnable(LuminePlugin.java:87) ~[MythicMobs-5.6.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[purpur-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:190) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[purpur-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugin(CraftServer.java:660) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugins(CraftServer.java:571) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:632) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:429) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:345) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1102) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:31:33] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.6.2-3e052553
+[04:31:33] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[04:31:33] [Server thread/INFO]: [MythicMobs] - 
+[04:31:33] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
+[04:31:33] [Server thread/INFO]: [MythicMobs] - 
+[04:31:33] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[04:31:33] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.core.mobs.MobExecutor.despawnAllMobs()" because the return value of "io.lumine.mythic.bukkit.MythicBukkit.getMobManager()" is null
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.MythicBukkit.disable(MythicBukkit.java:262)
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.onDisable(LuminePlugin.java:97)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:225)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:109)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:194)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugin(CraftServer.java:660)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugins(CraftServer.java:571)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:632)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:429)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:345)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1102)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
+[04:31:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:31:33] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[04:31:33] [Server thread/INFO]: [MythicMobs] ✗An error occurred while saving data
+[04:31:33] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.core.mobs.MobExecutor.saveCachedActiveMobs()" because the return value of "io.lumine.mythic.bukkit.MythicBukkit.getMobManager()" is null
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.core.config.ConfigExecutor.save(ConfigExecutor.java:446)
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.core.config.ConfigExecutor.unload(ConfigExecutor.java:475)
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.utils.plugin.PluginModule.close(PluginModule.java:50)
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.AbstractCompositeTerminable.close(AbstractCompositeTerminable.java:31)
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.CompositeTerminable.closeAndReportException(CompositeTerminable.java:63)
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.close(LuminePlugin.java:110)
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.onDisable(LuminePlugin.java:105)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:225)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:109)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:194)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugin(CraftServer.java:660)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugins(CraftServer.java:571)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:632)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:429)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:345)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1102)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
+[04:31:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:31:33] [Server thread/WARN]: io.lumine.mythic.bukkit.utils.terminable.composite.CompositeClosingException: Exception(s) occurred whilst closing: [java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.core.drops.DropExecutor.unload()" because the return value of "io.lumine.mythic.bukkit.MythicBukkit.getDropManager()" is null]
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.AbstractCompositeTerminable.close(AbstractCompositeTerminable.java:38)
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.CompositeTerminable.closeAndReportException(CompositeTerminable.java:63)
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.close(LuminePlugin.java:110)
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.onDisable(LuminePlugin.java:105)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:225)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:109)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:194)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugin(CraftServer.java:660)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugins(CraftServer.java:571)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:632)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:429)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:345)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1102)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
+[04:31:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:31:33] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.core.drops.DropExecutor.unload()" because the return value of "io.lumine.mythic.bukkit.MythicBukkit.getDropManager()" is null
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.core.config.ConfigExecutor.unload(ConfigExecutor.java:477)
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.utils.plugin.PluginModule.close(PluginModule.java:50)
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.AbstractCompositeTerminable.close(AbstractCompositeTerminable.java:31)
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.utils.terminable.composite.CompositeTerminable.closeAndReportException(CompositeTerminable.java:63)
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.close(LuminePlugin.java:110)
+[04:31:33] [Server thread/WARN]: 	at MythicMobs-5.6.2.jar//io.lumine.mythic.bukkit.utils.plugin.LuminePlugin.onDisable(LuminePlugin.java:105)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:225)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:109)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:194)
+[04:31:33] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugin(CraftServer.java:660)
+[04:31:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugins(CraftServer.java:571)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:632)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:429)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:345)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1102)
+[04:31:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
+[04:31:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:31:33] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[04:31:33] [Server thread/INFO]: [Slimefun] Enabling Slimefun vDev - 1148
+[04:31:33] [Thread-9/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[04:31:33] [Thread-9/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[04:31:33] [Server thread/INFO]: [Slimefun] Paper was detected! Performance optimizations have been applied.
+[04:31:33] [Server thread/INFO]: [Slimefun] Creating directories...
+[04:31:33] [Server thread/INFO]: [Slimefun] Loading language files...
+[04:31:33] [Server thread/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:31:34] [Server thread/INFO]: [Slimefun] Loaded language "en"
+[04:31:34] [Server thread/INFO]: [Slimefun] Available languages: en, de, fr, it, es, ru, pl, uk, sv, nl, da, cs, ro, bg, pt, pt-BR, hu, lv, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, fa, th, tl
+[04:31:34] [Server thread/INFO]: [Slimefun] Using legacy storage for player data
+[04:31:34] [Server thread/INFO]: [Slimefun] Enabled Analytics Service
+[04:31:34] [Slimefun Metrics/INFO]: [Slimefun] MetricsModule does not exist, downloading...
+[04:31:34] [Server thread/INFO]: [Slimefun] Starting Auto-Updater...
+[04:31:34] [Server thread/INFO]: [Slimefun] Loading GEO-Resources...
+[04:31:35] [Slimefun Metrics/INFO]: [Slimefun] # Starting download of MetricsModule build: #29
+[04:31:35] [Thread-9/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: fri-joshua.gl.joinmc.link
+[04:31:35] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[04:31:35] [Server thread/INFO]: [Slimefun] Loading Tags...
+[04:31:35] [Server thread/INFO]: [Slimefun] Loading items...
+[04:31:35] [Slimefun Metrics/WARN]: [Slimefun] Failed to start metrics as the file could not be downloaded.
+[04:31:35] [Thread-9/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:840:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[04:31:35] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[04:31:36] [Server thread/INFO]: [Slimefun] Loading researches...
+[04:31:36] [Server thread/INFO]: [Slimefun] Loading Wiki pages...
+[04:31:36] [Server thread/INFO]: [Slimefun] Registering listeners...
+[04:31:36] [Server thread/INFO]: [Slimefun] Loading Third-Party plugin integrations...
+[04:31:36] [Server thread/INFO]: [Slimefun] Hooked into Plugin: WorldEdit v7.2.16+6534-2066eb4
+[04:31:36] [Server thread/INFO]: [Slimefun] Slimefun has finished loading in 2.56s
+[04:31:36] [Server thread/INFO]: Running delayed init tasks
+[04:31:36] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[04:31:36] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
+[04:31:36] [Server thread/INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[04:31:36] [Server thread/INFO]: [Slimefun] Found 1,174 Recipes!
+[04:31:36] [Server thread/INFO]: 
+[04:31:36] [Server thread/INFO]: ######################### - Slimefun vDev - 1148 - #########################
+[04:31:36] [Server thread/INFO]: 
+[04:31:36] [Server thread/INFO]: Successfully loaded 555 Items and 258 Researches
+[04:31:36] [Server thread/INFO]: ( 555 Items from Slimefun, 0 Items from 0 Addons )
+[04:31:36] [Server thread/INFO]: 
+[04:31:36] [Server thread/INFO]: Slimefun is an Open-Source project that is kept alive by a large community.
+[04:31:36] [Server thread/INFO]: Consider helping us maintain this project by contributing on GitHub!
+[04:31:36] [Server thread/INFO]: 
+[04:31:36] [Server thread/INFO]:  - Source Code:  https://github.com/Slimefun/Slimefun4
+[04:31:36] [Server thread/INFO]:  - Wiki:         https://github.com/Slimefun/Slimefun4/wiki
+[04:31:36] [Server thread/INFO]:  - Addons:       https://github.com/Slimefun/Slimefun4/wiki/Addons
+[04:31:36] [Server thread/INFO]:  - Bug Reports:  https://github.com/Slimefun/Slimefun4/issues
+[04:31:36] [Server thread/INFO]:  - Discord:      https://discord.gg/slimefun
+[04:31:36] [Server thread/INFO]: 
+[04:31:36] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
+[04:31:36] [Server thread/INFO]: [Slimefun] This may take a long time...
+[04:31:36] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 2ms)
+[04:31:36] [Server thread/INFO]: [Slimefun] Loaded a total of 2 Blocks for World "world"
+[04:31:36] [Server thread/INFO]: [Slimefun] Avg: 1ms/Block
+[04:31:36] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
+[04:31:36] [Server thread/INFO]: [Slimefun] This may take a long time...
+[04:31:36] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[04:31:36] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_nether"
+[04:31:36] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
+[04:31:36] [Server thread/INFO]: [Slimefun] This may take a long time...
+[04:31:36] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[04:31:36] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_the_end"
+[04:31:36] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
+[04:31:36] [Server thread/INFO]: [dough: protection] This may happen more than once.
+[04:31:36] [Server thread/INFO]: Done (13.149s)! For help, type "help"
+[04:31:36] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
+[04:31:36] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[04:31:37] [Craft Scheduler Thread - 0 - Slimefun/INFO]: [Slimefun] Slimefun is already up to date!
+[04:31:47] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.20:46101, peerAddr=103.175.186.243:51232, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 20, -76, 21, 103, -81, -70, -13, -56, 32, 74, 126, -67, 78, -85, 8, 102, -118, 26, 51, 0, 0, 0, 0, 0, 7, -111, -66, 0, 0, 0, 0, 0, 51, 58, 36, 14, 78, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -98, -90, -81, 57, -17, 19, 30, 125, -76, -27, 35, 60, -5, -70, 82, 90], tunnelServerId=1, dataCenterId=28}
+[04:31:47] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[04:31:47] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[04:31:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[04:31:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[04:31:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[04:31:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[04:31:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[04:31:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:41177
+[04:31:47] [nioEventLoopGroup-2-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[04:31:47] [nioEventLoopGroup-2-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to connect to local minecraft server
+[04:31:49] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.20:46101, peerAddr=103.175.186.243:51245, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 20, -76, 21, 103, -81, -70, -13, -56, 45, -94, -83, 26, -56, -85, 8, 102, -118, 26, 53, 0, 0, 0, 0, 0, 7, -111, -66, 0, 0, 0, 0, 0, 51, 58, 36, -69, -56, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 48, 38, 10, 121, -109, -81, -28, 76, -71, 80, -1, -86, -28, 99, 108, 53], tunnelServerId=1, dataCenterId=28}
+[04:31:49] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[04:31:49] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[04:31:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[04:31:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[04:31:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[04:31:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[04:31:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[04:31:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:41177
+[04:31:49] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[04:31:49] [Netty Epoll Server IO #2/INFO]: [AntiPopup] Unable to grab ViaVersion client version for player!
+[04:31:51] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.20:46101, peerAddr=103.175.186.243:51251, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 20, -76, 21, 103, -81, -70, -13, -56, 51, 16, 95, 122, 62, -85, 8, 102, -118, 26, 55, 0, 0, 0, 0, 0, 7, -111, -66, 0, 0, 0, 0, 0, 51, 58, 36, 127, 62, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -119, 78, 58, -18, -10, -44, 13, -101, 80, 90, 24, -71, -11, 47, 35, 43], tunnelServerId=1, dataCenterId=28}
+[04:31:51] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[04:31:51] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[04:31:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[04:31:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[04:31:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[04:31:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[04:31:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[04:31:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:41177
+[04:31:51] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[04:31:51] [Netty Epoll Server IO #3/INFO]: [AntiPopup] Unable to grab ViaVersion client version for player!
+[04:31:52] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.20:46101, peerAddr=103.175.186.243:51252, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 20, -76, 21, 103, -81, -70, -13, -56, 52, -5, -44, 31, 13, -85, 8, 102, -118, 26, 56, 0, 0, 0, 0, 0, 7, -111, -66, 0, 0, 0, 0, 0, 51, 58, 36, -63, 13, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 59, 117, -40, -65, 81, -101, 125, -127, 31, -117, -28, -17, -85, -62, 64, 126], tunnelServerId=1, dataCenterId=28}
+[04:31:52] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[04:31:52] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[04:31:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[04:31:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[04:31:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[04:31:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[04:31:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[04:31:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:41177
+[04:31:52] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[04:31:52] [Netty Epoll Server IO #0/INFO]: [AntiPopup] Unable to grab ViaVersion client version for player!
+[04:31:52] [User Authenticator #0/INFO]: UUID of player Suvrajit is 4e652eb0-f42e-34fb-8424-539c2da8221f
+[04:31:52] [Server thread/INFO]: Suvrajit joined the game
+[04:31:52] [Server thread/INFO]: Suvrajit[/127.0.0.1:55150] logged in with entity id 129 at ([world]-37.454354469223844, 64.0, -210.95666461619444)
+[04:32:00] [Server thread/INFO]: Suvrajit issued server command: /mythicmobs
+[04:32:00] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Cannot execute command 'mythicmobs' in plugin MythicMobs v5.6.2-3e052553 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[purpur-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:168) ~[purpur-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.dispatchCommand(CraftServer.java:1005) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at org.bukkit.craftbukkit.v1_20_R2.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[purpur-1.20.2.jar:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:338) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:322) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2279) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$20(ServerGamePacketListenerImpl.java:2239) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1351) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:193) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1328) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1321) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1299) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1187) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320) ~[purpur-1.20.2.jar:git-Purpur-2095]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:32:06] [Server thread/INFO]: Suvrajit issued server command: /plugins
+[04:33:16] [Craft Scheduler Thread - 6 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
+[04:33:16] [Craft Scheduler Thread - 6 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (1 change(s) queued)
+[04:35:37] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[04:39:38] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[04:41:31] [Server thread/INFO]: Suvrajit has made the advancement [Take Aim]
+[04:43:16] [Craft Scheduler Thread - 9 - Slimefun/INFO]: [Slimefun] Auto-saved all player data for 1 player(s)!
+[04:43:38] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[04:45:19] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[04:45:19] [Server thread/INFO]: Suvrajit lost connection: Disconnected
+[04:45:19] [Server thread/INFO]: Suvrajit left the game
+[04:45:19] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.20:46101, peerAddr=103.175.186.243:51298, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 20, -76, 21, 103, -81, -70, -13, -56, 98, -118, -22, 43, 84, -85, 8, 102, -118, 29, 95, 0, 0, 0, 0, 0, 7, -111, -66, 0, 0, 0, 0, 0, 51, 58, 36, 58, 84, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 29, 37, 38, -115, 126, 63, 39, 43, 16, -49, -98, -117, 39, 59, -122, 72], tunnelServerId=1, dataCenterId=28}
+[04:45:19] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[04:45:19] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[04:45:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[04:45:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[04:45:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[04:45:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[04:45:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[04:45:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:41177
+[04:45:19] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[04:45:19] [Netty Epoll Server IO #1/INFO]: [AntiPopup] Unable to grab ViaVersion client version for player!
+[04:45:20] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.20:46101, peerAddr=103.175.186.243:51304, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 20, -76, 21, 103, -81, -70, -13, -56, 104, -30, -105, 99, 107, -85, 8, 102, -118, 29, 96, 0, 0, 0, 0, 0, 7, -111, -66, 0, 0, 0, 0, 0, 51, 58, 36, -87, 107, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 114, -60, 37, -115, -60, 57, -113, 67, -62, 63, 0, -25, 80, -101, -61, -55], tunnelServerId=1, dataCenterId=28}
+[04:45:20] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[04:45:20] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[04:45:20] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[04:45:20] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[04:45:20] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[04:45:20] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[04:45:20] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[04:45:20] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:41177
+[04:45:20] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[04:45:20] [Netty Epoll Server IO #2/INFO]: [AntiPopup] Unable to grab ViaVersion client version for player!
+[04:45:20] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.20:46101, peerAddr=103.175.186.243:51305, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 20, -76, 21, 103, -81, -70, -13, -56, 105, 89, 82, -101, -27, -85, 8, 102, -118, 29, 96, 0, 0, 0, 0, 0, 7, -111, -66, 0, 0, 0, 0, 0, 51, 58, 36, -15, -27, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 49, 35, -36, -16, 84, 116, 120, -68, -87, 90, -54, -113, -51, 41, -28, -78], tunnelServerId=1, dataCenterId=28}
+[04:45:20] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[04:45:20] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[04:45:20] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[04:45:20] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[04:45:20] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[04:45:20] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[04:45:20] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[04:45:20] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:41177
+[04:45:20] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[04:45:21] [Netty Epoll Server IO #3/INFO]: [AntiPopup] Unable to grab ViaVersion client version for player!
+[04:45:21] [User Authenticator #1/INFO]: UUID of player Suvrajit is 4e652eb0-f42e-34fb-8424-539c2da8221f
+[04:45:21] [Server thread/INFO]: Suvrajit joined the game
+[04:45:21] [Server thread/INFO]: Suvrajit[/127.0.0.1:50808] logged in with entity id 4336 at ([world]385.69999998807907, 83.0, -612.8625800024674)
+[04:47:39] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[04:51:39] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[04:51:48] [Server thread/INFO]: Suvrajit has made the advancement [Ice Bucket Challenge]
+[04:53:16] [Craft Scheduler Thread - 4 - Slimefun/INFO]: [Slimefun] Auto-saved all player data for 1 player(s)!
+[04:55:39] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[04:56:46] [Server thread/INFO]: Suvrajit issued server command: /gamemode creative
+[04:56:46] [Server thread/INFO]: [Suvrajit: Set own game mode to Creative Mode]
+[04:57:18] [Server thread/INFO]: Suvrajit issued server command: /gamemode survival
+[04:57:18] [Server thread/INFO]: [Suvrajit: Set own game mode to Survival Mode]
+[04:57:27] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[04:57:27] [Server thread/INFO]: Suvrajit lost connection: Disconnected
+[04:57:27] [Server thread/INFO]: Suvrajit left the game
+[04:57:27] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.20:46101, peerAddr=103.175.186.243:51326, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 20, -76, 21, 103, -81, -70, -13, -56, 126, -78, 33, -78, 26, -85, 8, 102, -118, 32, 55, 0, 0, 0, 0, 0, 7, -111, -66, 0, 0, 0, 0, 0, 51, 58, 36, 85, 26, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -40, -111, 31, -72, -23, -68, 114, 95, 84, -111, -120, 31, -13, -111, 98, 20], tunnelServerId=1, dataCenterId=28}
+[04:57:27] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[04:57:27] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[04:57:27] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[04:57:27] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[04:57:27] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[04:57:27] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[04:57:27] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[04:57:27] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:41177
+[04:57:27] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[04:57:27] [Netty Epoll Server IO #0/INFO]: [AntiPopup] Unable to grab ViaVersion client version for player!
+[04:57:33] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.20:46101, peerAddr=103.175.186.243:51346, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 20, -76, 21, 103, -81, -70, -13, -56, -110, -53, 40, 38, -119, -85, 8, 102, -118, 32, 61, 0, 0, 0, 0, 0, 7, -111, -66, 0, 0, 0, 0, 0, 51, 58, 36, -53, -119, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -54, -20, 105, -11, 16, 40, -5, -109, -119, 23, -68, 76, 65, -35, 0, 77], tunnelServerId=1, dataCenterId=28}
+[04:57:33] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[04:57:33] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[04:57:33] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[04:57:33] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[04:57:33] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[04:57:33] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[04:57:33] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[04:57:33] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:41177
+[04:57:33] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[04:57:33] [Netty Epoll Server IO #1/INFO]: [AntiPopup] Unable to grab ViaVersion client version for player!
+[04:57:34] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.20:46101, peerAddr=103.175.186.243:51347, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 20, -76, 21, 103, -81, -70, -13, -56, -109, -101, -27, 25, -37, -85, 8, 102, -118, 32, 62, 0, 0, 0, 0, 0, 7, -111, -66, 0, 0, 0, 0, 0, 51, 58, 36, -39, -37, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 84, 8, 19, 104, -40, -88, -110, -103, -40, -57, -5, 45, -52, 115, -27, -107], tunnelServerId=1, dataCenterId=28}
+[04:57:34] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[04:57:34] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[04:57:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[04:57:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[04:57:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[04:57:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[04:57:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[04:57:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:41177
+[04:57:34] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[04:57:34] [Netty Epoll Server IO #2/INFO]: [AntiPopup] Unable to grab ViaVersion client version for player!
+[04:57:34] [User Authenticator #2/INFO]: UUID of player Suvrajit is 4e652eb0-f42e-34fb-8424-539c2da8221f
+[04:57:34] [Server thread/INFO]: Suvrajit joined the game
+[04:57:34] [Server thread/INFO]: Suvrajit[/127.0.0.1:42134] logged in with entity id 7757 at ([world]287.59077405399813, 63.0, 313.781175376227)
+[04:58:54] [Server thread/INFO]: Suvrajit issued server command: /gamemode creative
+[04:58:54] [Server thread/INFO]: [Suvrajit: Set own game mode to Creative Mode]
+[04:59:04] [Server thread/INFO]: Suvrajit issued server command: /gamemode survival
+[04:59:04] [Server thread/INFO]: [Suvrajit: Set own game mode to Survival Mode]
+[04:59:18] [Server thread/INFO]: Suvrajit has made the advancement [Stone Age]
+[04:59:40] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[05:01:22] [Server thread/INFO]: Suvrajit issued server command: /jump
+[05:02:07] [Server thread/INFO]: Suvrajit has made the advancement [Acquire Hardware]
+[05:03:16] [Craft Scheduler Thread - 19 - Slimefun/INFO]: [Slimefun] Auto-saved all player data for 1 player(s)!
+[05:03:40] [Thread-9/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[05:06:51] [Server thread/INFO]: Suvrajit issued server command: /gamemode creative
+[05:06:51] [Server thread/INFO]: [Suvrajit: Set own game mode to Creative Mode]
+[05:07:08] [Server thread/INFO]: Suvrajit issued server command: /gamemode survival
+[05:07:08] [Server thread/INFO]: [Suvrajit: Set own game mode to Survival Mode]
+[05:07:30] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[05:07:30] [Server thread/INFO]: Suvrajit lost connection: Disconnected
+[05:07:30] [Server thread/INFO]: Suvrajit left the game
+[05:07:30] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.20:46101, peerAddr=103.175.186.243:51368, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 20, -76, 21, 103, -81, -70, -13, -56, -88, 111, -50, 99, 96, -85, 8, 102, -118, 34, -110, 0, 0, 0, 0, 0, 7, -111, -66, 0, 0, 0, 0, 0, 51, 58, 36, -66, 96, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -64, -77, -81, -111, -60, -10, -126, -80, 49, 4, 19, 20, -29, -72, -63, -21], tunnelServerId=1, dataCenterId=28}
+[05:07:30] [Thread-9/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[05:07:30] [Thread-9/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[05:07:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[05:07:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[05:07:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[05:07:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[05:07:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[05:07:30] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:41177
+[05:07:30] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[05:07:30] [Netty Epoll Server IO #3/INFO]: [AntiPopup] Unable to grab ViaVersion client version for player!
+[05:07:34] [Server thread/INFO]: Stopping the server
+[05:07:34] [Server thread/INFO]: Stopping server
+[05:07:34] [Server thread/INFO]: [Slimefun] Disabling Slimefun vDev - 1148
+[05:07:34] [Server thread/INFO]: [Slimefun] Backed up Slimefun data to: 2024-07-07-05-07.zip
+[05:07:34] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[05:07:34] [Server thread/INFO]: [AntiPopup] Disabling AntiPopup v7.3
+[05:07:34] [Server thread/INFO]: [AntiPopup] Disabled PacketEvents.
+[05:07:34] [Server thread/INFO]: [spark] Disabling spark v1.10.73
+[05:07:34] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.16+6534-2066eb4
+[05:07:34] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[05:07:34] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.1
+[05:07:34] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[05:07:34] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.1
+[05:07:34] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[05:07:34] [Server thread/INFO]: Saving players
+[05:07:34] [Server thread/INFO]: Saving worlds
+[05:07:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:07:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[05:07:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[05:07:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[05:07:35] [Server thread/INFO]: [ChunkHolderManager] Saved 205 block chunks, 247 entity chunks, 0 poi chunks in world 'world' in 0.18s
+[05:07:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:07:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:07:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[05:07:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[05:07:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[05:07:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 18 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[05:07:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:07:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:07:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[05:07:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[05:07:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[05:07:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[05:07:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:07:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:07:35] [Server thread/INFO]: Flushing Chunk IO
+[05:07:35] [Server thread/INFO]: Closing Thread Pool
+[05:07:35] [Server thread/INFO]: Closing Server

@@ -254,6 +254,7 @@ researches:
   '123': true
   '125': true
   '143': true
+  '77': true
 backpacks:
   '0':
     size: 54
@@ -483,3 +484,200 @@ backpacks:
             ambient: true
             has-particles: true
             has-icon: true
+  '2':
+    size: 27
+    contents: {}
+  '3':
+    size: 54
+    contents:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Pickaxe
+            of Vein Mining"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"This
+            Pickaxe will dig out"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"whole
+            Veins of Ores..."}],"text":""}'
+          enchants:
+            DIG_SPEED: 5
+            LOOT_BONUS_BLOCKS: 3
+            MENDING: 1
+            DURABILITY: 3
+            VANISHING_CURSE: 1
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "PICKAXE_OF_VEIN_MINING"
+            }
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: IRON_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Pickaxe
+            of Containment"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Can
+            pickup Spawners"}],"text":""}'
+          enchants:
+            DIG_SPEED: 5
+            LOOT_BONUS_BLOCKS: 3
+            MENDING: 1
+            SILK_TOUCH: 1
+            DURABILITY: 3
+            VANISHING_CURSE: 1
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "PICKAXE_OF_CONTAINMENT"
+            }
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: DIAMOND_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Explosive
+            Shovel"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Allows
+            you to mine a good bit"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"of
+            diggable Blocks at once..."}],"text":""}'
+          enchants:
+            DIG_SPEED: 5
+            LOOT_BONUS_BLOCKS: 3
+            MENDING: 1
+            SILK_TOUCH: 1
+            DURABILITY: 3
+            VANISHING_CURSE: 1
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "EXPLOSIVE_SHOVEL"
+            }
+      '3':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: DIAMOND_HOE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Soulbound
+            Hoe"}],"text":""}'
+          enchants:
+            DIG_SPEED: 5
+            LOOT_BONUS_BLOCKS: 3
+            MENDING: 1
+            SILK_TOUCH: 1
+            DURABILITY: 3
+            VANISHING_CURSE: 1
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "SOULBOUND_HOE"
+            }
+      '4':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: ELYTRA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Soulbound
+            Elytra"}],"text":""}'
+          enchants:
+            MENDING: 1
+            DURABILITY: 3
+            VANISHING_CURSE: 1
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "SOULBOUND_ELYTRA"
+            }
+      '5':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: TRIDENT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Soulbound
+            Trident"}],"text":""}'
+          enchants:
+            CHANNELING: 1
+            IMPALING: 5
+            LOYALTY: 3
+            MENDING: 1
+            RIPTIDE: 3
+            DURABILITY: 3
+            VANISHING_CURSE: 1
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "SOULBOUND_TRIDENT"
+            }
+      '6':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: STICK
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Elemental
+            Staff "},{"italic":false,"color":"gray","text":"- "},{"italic":true,"color":"dark_gray","text":"Storm"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Element:
+            "},{"italic":true,"color":"dark_gray","text":"Storm"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Right
+            Click"},{"italic":false,"color":"gray","text":" to summon a lightning"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"8
+            Uses "},{"italic":false,"color":"gray","text":"left"}],"text":""}'
+          enchants:
+            DURABILITY: 1
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "STAFF_ELEMENTAL_STORM"
+            }
+      '7':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Elemental
+            Staff "},{"italic":false,"color":"gray","text":"- "},{"italic":true,"color":"red","text":"Fire"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Element:
+            "},{"italic":true,"color":"red","text":"Fire"}],"text":""}'
+          enchants:
+            FIRE_ASPECT: 5
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "STAFF_ELEMENTAL_FIRE"
+            }
+      '8':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: COAST_ARMOR_TRIM_SMITHING_TEMPLATE
+        amount: 2
+      '10':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: FIRE_CHARGE
+      '11':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: WHITE_WOOL
+        amount: 3
