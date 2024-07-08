@@ -773,6 +773,7 @@ backpacks:
         ==: org.bukkit.inventory.ItemStack
         v: 3578
         type: DIAMOND
+        amount: 3
       '26':
         ==: org.bukkit.inventory.ItemStack
         v: 3578
@@ -869,3 +870,28 @@ backpacks:
             {
                 "slimefun:slimefun_item": "EXPLOSIVE_SHOVEL"
             }
+      '31':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: SPAWNER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Broken
+            Spawner"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Type:
+            "},{"italic":false,"color":"aqua","text":"Silverfish"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Fractured,
+            must be repaired in an Ancient Altar"}],"text":""}'
+          internal: H4sIAAAAAAAA/0WPSw8BQRCEy3iESbyCu9/h6HEkgrs0etfEmmVmsOsX+lnsjGRPlU5X1dctAYnONEmPl4V2yuU7igXaS6W3N3rpOSeU4yPQX1K2YjKH3NsUWzQkWsFEjiQa7PNNCHXC8Ko0Hw1FbmJV8mQTKXsGqqi8Aa9ZoQWJspJUHQtIP87Sh3aoCQw2fH8ow6f1b89mQzpm9AJlVFKu6WFviyCbFrq+Yp264iRKLP7MPDADITT9CPXw5BD4AkbiJdwNAQAA
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "BROKEN_SPAWNER"
+            }
+          blockMaterial: SPAWNER
+      '32':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: NAME_TAG
