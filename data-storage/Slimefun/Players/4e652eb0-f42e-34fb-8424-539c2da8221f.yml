@@ -497,17 +497,14 @@ backpacks:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Explosive
-            Pickaxe"}],"text":""}'
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Pickaxe
+            of Vein Mining"}],"text":""}'
           lore:
           - '{"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Allows
-            you to mine a good bit"}],"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"of
-            Blocks at once..."}],"text":""}'
-          - '{"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Works
-            with Fortune"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"This
+            Pickaxe will dig out"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"whole
+            Veins of Ores..."}],"text":""}'
           enchants:
             DIG_SPEED: 5
             LOOT_BONUS_BLOCKS: 3
@@ -516,57 +513,7 @@ backpacks:
             VANISHING_CURSE: 1
           PublicBukkitValues: |-
             {
-                "slimefun:slimefun_item": "EXPLOSIVE_PICKAXE"
-            }
-      '1':
-        ==: org.bukkit.inventory.ItemStack
-        v: 3578
-        type: IRON_PICKAXE
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Pickaxe
-            of Containment"}],"text":""}'
-          lore:
-          - '{"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Can
-            pickup Spawners"}],"text":""}'
-          enchants:
-            DIG_SPEED: 5
-            LOOT_BONUS_BLOCKS: 3
-            MENDING: 1
-            SILK_TOUCH: 1
-            DURABILITY: 3
-            VANISHING_CURSE: 1
-          PublicBukkitValues: |-
-            {
-                "slimefun:slimefun_item": "PICKAXE_OF_CONTAINMENT"
-            }
-      '2':
-        ==: org.bukkit.inventory.ItemStack
-        v: 3578
-        type: DIAMOND_SHOVEL
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Explosive
-            Shovel"}],"text":""}'
-          lore:
-          - '{"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Allows
-            you to mine a good bit"}],"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"of
-            diggable Blocks at once..."}],"text":""}'
-          enchants:
-            DIG_SPEED: 5
-            LOOT_BONUS_BLOCKS: 3
-            MENDING: 1
-            SILK_TOUCH: 1
-            DURABILITY: 3
-            VANISHING_CURSE: 1
-          PublicBukkitValues: |-
-            {
-                "slimefun:slimefun_item": "EXPLOSIVE_SHOVEL"
+                "slimefun:slimefun_item": "PICKAXE_OF_VEIN_MINING"
             }
       '3':
         ==: org.bukkit.inventory.ItemStack
@@ -734,11 +681,191 @@ backpacks:
         ==: org.bukkit.inventory.ItemStack
         v: 3578
         type: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE
+        amount: 2
       '14':
         ==: org.bukkit.inventory.ItemStack
         v: 3578
-        type: SADDLE
+        type: MUSIC_DISC_PIGSTEP
       '15':
         ==: org.bukkit.inventory.ItemStack
         v: 3578
+        type: MUSIC_DISC_PIGSTEP
+      '16':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: OBSIDIAN
+        amount: 9
+      '17':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: SPAWNER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Broken
+            Spawner"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Type:
+            "},{"italic":false,"color":"aqua","text":"Blaze"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Fractured,
+            must be repaired in an Ancient Altar"}],"text":""}'
+          internal: H4sIAAAAAAAA/0WP3Q7BQBCFj0Wjm1CCe8/h0s8lkXIvU4ZstFu2K1pP6LG0uxJXJ5M553wzEpAYLNL8dFtrq2x1oKtAf6P0/k4vveKUKnwERhsqt0wmqZxNcYFAIvQmsiQRsMv3INQZUaY0nwxd7DxJ6c1AG6034LRstIFQ+Ye0ZwLSjcv8qS06AuOYH09l+Lyr92xi0lfG0AOmf0CWJ8eiCbIJEbmKXW6baygt8GNWnukJvqkmdP1/E+AL4t8H+QgBAAA=
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "BROKEN_SPAWNER"
+            }
+          blockMaterial: SPAWNER
+      '18':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
         type: SADDLE
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: IRON_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Pickaxe
+            of Containment"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Can
+            pickup Spawners"}],"text":""}'
+          enchants:
+            DIG_SPEED: 5
+            LOOT_BONUS_BLOCKS: 3
+            MENDING: 1
+            SILK_TOUCH: 1
+            DURABILITY: 3
+            VANISHING_CURSE: 1
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "PICKAXE_OF_CONTAINMENT"
+            }
+      '19':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: SADDLE
+      '20':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: SADDLE
+      '21':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: SADDLE
+      '22':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: DIAMOND_HORSE_ARMOR
+      '23':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: GOLDEN_HORSE_ARMOR
+      '24':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: GOLD_INGOT
+        amount: 24
+      '25':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: DIAMOND
+      '26':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: NETHER_WART
+        amount: 28
+      '27':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: BLAZE_ROD
+        amount: 14
+      '28':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: BLAZE_POWDER
+        amount: 19
+      '29':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: PAPER
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Scroll
+            of Dimensional Teleposition"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"This
+            Scroll is capable of creating"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"a
+            temporary black Hole which pulls"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"nearby
+            Entities into itself and sends"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"them
+            into another Dimension where"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"everything
+            is turned around"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"In
+            other words: Makes Entities turn by 180 Degrees"}],"text":""}'
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "SCROLL_OF_DIMENSIONAL_TELEPOSITION"
+            }
+      '30':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: GOLDEN_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Gilded
+            Iron Boots"}],"text":""}'
+          enchants:
+            PROTECTION_EXPLOSIONS: 4
+            DEPTH_STRIDER: 3
+            PROTECTION_FALL: 4
+            PROTECTION_FIRE: 4
+            FROST_WALKER: 2
+            MENDING: 1
+            PROTECTION_PROJECTILE: 4
+            PROTECTION_ENVIRONMENTAL: 4
+            SOUL_SPEED: 3
+            THORNS: 3
+            DURABILITY: 3
+            VANISHING_CURSE: 1
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "GILDED_IRON_BOOTS"
+            }
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: DIAMOND_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Explosive
+            Shovel"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Allows
+            you to mine a good bit"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"of
+            diggable Blocks at once..."}],"text":""}'
+          enchants:
+            DIG_SPEED: 5
+            LOOT_BONUS_BLOCKS: 3
+            MENDING: 1
+            SILK_TOUCH: 1
+            DURABILITY: 3
+            VANISHING_CURSE: 1
+          PublicBukkitValues: |-
+            {
+                "slimefun:slimefun_item": "EXPLOSIVE_SHOVEL"
+            }
