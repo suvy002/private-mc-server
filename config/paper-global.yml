@@ -79,7 +79,7 @@ packet-limiter:
   all-packets:
     action: KICK
     interval: 7.0
-    max-packet-rate: 500.0
+    max-packet-rate: -1.0
   kick-message: <red><lang:disconnect.exceeded_packet_rate>
   overrides:
     ServerboundPlaceRecipePacket:
@@ -122,6 +122,8 @@ unsupported-settings:
   allow-headless-pistons: false
   allow-permanent-block-break-exploits: false
   allow-piston-duplication: false
+  allow-tripwire-disarming-exploits: false
+  allow-unsafe-end-portal-teleportation: false
   compression-format: ZLIB
   perform-username-validation: true
 watchdog:
