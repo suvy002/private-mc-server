@@ -1,0 +1,699 @@
+[18:06:24] [ServerMain/WARN]: Failed to parse resource pack prompt 'true'
+com.google.gson.JsonParseException: Not a JSON object: true
+	at net.minecraft.Util.getOrThrow(Util.java:863) ~[?:?]
+	at net.minecraft.network.chat.Component$Serializer.deserialize(Component.java:291) ~[?:?]
+	at net.minecraft.network.chat.Component$Serializer.fromJson(Component.java:310) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.parseResourcePackPrompt(DedicatedServerProperties.java:192) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.getServerPackInfo(DedicatedServerProperties.java:225) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.<init>(DedicatedServerProperties.java:169) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.fromFile(DedicatedServerProperties.java:179) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServerSettings.<init>(DedicatedServerSettings.java:19) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.Main.main(Main.java:125) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.Main.main(Main.java:326) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[18:06:24] [ServerMain/WARN]: resource-pack-id missing, using default of 00367584-69d8-36dc-820e-5951664889bc
+[18:06:24] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:06:26] [Worker-Main-1/ERROR]: Couldn't load tag nether_start:non_colliding as it is missing following references: minecraft:grass (from file/nether-start-v1-1.zip), #minecraft:carpets (from file/nether-start-v1-1.zip)
+[18:06:26] [Worker-Main-1/ERROR]: Couldn't parse element loot_tables:wasd.lib:rng/rotation - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_data":{"wasd_rotation":1}}}
+[18:06:26] [Worker-Main-1/ERROR]: Couldn't parse element loot_tables:minecraft:blocks/yellow_shulker_box - Not a json array: {"function":"minecraft:copy_components","source":"block_entity","components":["minecraft:custom_name","minecraft:container","minecraft:lock","minecraft:container_loot"]}
+[18:06:26] [Worker-Main-1/WARN]: Invalid path in datapack: wasd.lib:recipes/NBT Recipes.zip, ignoring
+[18:06:27] [ServerMain/INFO]: Loaded 1176 recipes
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.lib:items/inventory/mainhand/box_to_inventory
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Expected whitespace to end one argument, but found trailing data at position 70: ...hulker_box<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Expected whitespace to end one argument, but found trailing data at position 70: ...hulker_box<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.lib:items/damage/break/tools/fishing_rod
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.lib:items/damage/break/tools/crossbow
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.lib:items/damage/break/tools/flint_and_steel
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.lib:affects/honey_slowed
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected ' ' at position 14: ...icle block<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Expected ' ' at position 14: ...icle block<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.lib:items/inventory/restore_inventory
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 7: Expected whitespace to end one argument, but found trailing data at position 105: ...hulker_box<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 7: Expected whitespace to end one argument, but found trailing data at position 105: ...hulker_box<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.lib:affects/cobweb_slowed
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Expected ' ' at position 31: ...lling_dust<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Expected ' ' at position 31: ...lling_dust<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.lib:affects/copper_poisoned
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Expected ' ' at position 31: ...lling_dust<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Expected ' ' at position 31: ...lling_dust<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.lib:affects/bleeding
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 18: Expected ' ' at position 78: ...raft:block<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 18: Expected ' ' at position 78: ...raft:block<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.lib:storage/inventory/restore_inventory3
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 7: Expected whitespace to end one argument, but found trailing data at position 105: ...hulker_box<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 7: Expected whitespace to end one argument, but found trailing data at position 105: ...hulker_box<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.lib:storage/inventory/restore_inventory2
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 7: Expected whitespace to end one argument, but found trailing data at position 105: ...hulker_box<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 7: Expected whitespace to end one argument, but found trailing data at position 105: ...hulker_box<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.lib:storage/inventory/restore_inventory
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 7: Expected whitespace to end one argument, but found trailing data at position 105: ...hulker_box<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 7: Expected whitespace to end one argument, but found trailing data at position 105: ...hulker_box<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.lib:items/inventory/offhand/box_to_inventory
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Expected whitespace to end one argument, but found trailing data at position 69: ...hulker_box<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Expected whitespace to end one argument, but found trailing data at position 69: ...hulker_box<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.abilities:__generated__/block/19
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 6: Expected ' ' at position 21: ...lling_dust<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 6: Expected ' ' at position 21: ...lling_dust<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.lib:affects/drop_rainbow_dye
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Expected ' ' at position 13: ...ticle dust<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Expected ' ' at position 13: ...ticle dust<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.abilities:__generated__/block/20
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected ' ' at position 14: ...icle block<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected ' ' at position 14: ...icle block<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.abilities:__generated__/block/21
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 6: Expected ' ' at position 21: ...lling_dust<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 6: Expected ' ' at position 21: ...lling_dust<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/ERROR]: Failed to load function wasd.abilities:__generated__/block/22
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Expected ' ' at position 24: ...raft:block<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Expected ' ' at position 24: ...raft:block<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:84) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[18:06:27] [ServerMain/INFO]: Loaded 1297 advancements
+[18:06:27] [ServerMain/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: wasd.lib:nonsolid
+[18:06:28] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[18:06:28] [Server thread/INFO]: Loading properties
+[18:06:28] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[18:06:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:06:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:06:29] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[18:06:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:06:29] [Server thread/INFO]: Default game type: SURVIVAL
+[18:06:29] [Server thread/INFO]: Generating keypair
+[18:06:29] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[18:06:29] [Server thread/INFO]: Using epoll channel type
+[18:06:29] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:06:29] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:06:30] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[18:06:30] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.1
+[18:06:30] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.1 is now loaded. Registering protocol transformers and injecting...
+[18:06:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:06:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[18:06:31] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:06:31] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[18:06:31] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.16+6534-2066eb4
+[18:06:32] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@39387092]
+[18:06:32] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.1
+[18:06:32] [Server thread/INFO]: [AdvancedPortals] Loading server plugin AdvancedPortals v0.9.3
+[18:06:32] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.1.0
+[18:06:32] [Server thread/INFO]: [AntiPopup] Loading server plugin AntiPopup v9
+[18:06:34] [Server thread/INFO]: [AntiPopup] Loaded PacketEvents.
+[18:06:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:06:34] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:06:34] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:06:34] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:06:34] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.16+6534-2066eb4
+[18:06:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:06:34] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:06:34] [Server thread/WARN]: 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and block property-related functions.
+**
+** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
+**********************************************
+
+[18:06:34] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.1.0
+[18:06:35] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
+[18:06:35] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[18:06:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:06:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:06:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:06:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:06:35] [Server thread/INFO]: Preparing level "world"
+[18:06:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:06:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:06:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[18:06:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[18:06:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[18:06:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:06:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:06:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.1.0
+[18:06:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 87ff959
+[18:06:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[18:06:35] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:06:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:06:35] [Server thread/INFO]: Time elapsed: 159 ms
+[18:06:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:06:36] [Server thread/INFO]: Time elapsed: 133 ms
+[18:06:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:06:36] [Server thread/INFO]: Time elapsed: 49 ms
+[18:06:36] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.1
+[18:06:36] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[18:06:36] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.1
+[18:06:36] [Server thread/INFO]: [AdvancedPortals] Enabling AdvancedPortals v0.9.3
+[18:06:36] [Server thread/INFO]: [AdvancedPortals] BLOCK_PORTAL_TRAVEL found
+[18:06:36] [Server thread/WARN]: [AdvancedPortals] Proxy features disabled for Advanced Portals as bungee isn't enabled on the server (spigot.yml).If you are using Paper proxies.velocity.enabled (config/paper-global.yml) or settings.velocity-support.enabled (paper.yml) may not be enabled 
+[18:06:36] [Server thread/INFO]: Advanced portals have been successfully enabled!
+[18:06:36] [Server thread/INFO]: [AntiPopup] Enabling AntiPopup v9
+[18:06:36] [Server thread/INFO]: [AntiPopup] Config enabled.
+[18:06:36] [Server thread/INFO]: [AntiPopup] Loaded a hook for ViaVersion.
+[18:06:36] [Server thread/INFO]: [AntiPopup] Registered a modifier targeted for versions older than 1.20.5.
+[18:06:36] [Server thread/INFO]: [AntiPopup] Initiated PacketEvents.
+[18:06:36] [Server thread/INFO]: [AntiPopup] Hooked on 1.20.4
+[18:06:36] [Server thread/INFO]: [AntiPopup] Commands registered.
+[18:06:36] [Server thread/INFO]: [AntiPopup] Logger filter enabled.
+[18:06:36] [Server thread/INFO]: Running delayed init tasks
+[18:06:36] [Server thread/INFO]: Done (8.402s)! For help, type "help"
+[18:06:36] [Server thread/INFO]: Timings Reset
+[18:06:36] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:06:36] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[18:06:36] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] No new version available
+[18:06:39] [User Authenticator #0/INFO]: UUID of player Suvrajit is 4e652eb0-f42e-34fb-8424-539c2da8221f
+[18:06:57] [Server thread/INFO]: Suvrajit joined the game
+[18:06:58] [Server thread/INFO]: Suvrajit[/[0:0:0:0:0:0:0:1%0]:57416] logged in with entity id 115 at ([world_nether]23.669601004963493, 135.0, 217.63508983738507)
+[18:07:56] [Server thread/INFO]: Suvrajit issued server command: /title eagledares1 times 0.5s 1s 0.5s
+[18:08:09] [Server thread/INFO]: Suvrajit issued server command: /effect give eagledares1 minecraft:regeneration infinite 3
+[18:08:25] [Server thread/INFO]: Suvrajit issued server command: /deop eagledares1
+[18:08:25] [Server thread/INFO]: [Suvrajit: Made eagledares1 no longer a server operator]
+[18:08:37] [Server thread/INFO]: Suvrajit issued server command: /gamerule doMobSpawning false
+[18:08:37] [Server thread/INFO]: [Suvrajit: Gamerule doMobSpawning is now set to: false]
+[18:09:22] [Server thread/INFO]: Suvrajit issued server command: /gamemode survival eagledares1
+[18:10:04] [User Authenticator #1/INFO]: UUID of player eagledares1 is f76c96ba-8b32-3fcd-85e9-66dc6f64378b
+[18:10:04] [Server thread/INFO]: Disconnecting eagledares1 (/127.0.0.1:43612): You are not whitelisted on this server!
+[18:10:04] [Server thread/INFO]: eagledares1 (/127.0.0.1:43612) lost connection: You are not whitelisted on this server!
+[18:10:24] [User Authenticator #1/INFO]: UUID of player eagledares1 is f76c96ba-8b32-3fcd-85e9-66dc6f64378b
+[18:10:24] [Server thread/INFO]: Disconnecting eagledares1 (/127.0.0.1:41886): You are not whitelisted on this server!
+[18:10:24] [Server thread/INFO]: eagledares1 (/127.0.0.1:41886) lost connection: You are not whitelisted on this server!
+[18:10:30] [Server thread/INFO]: Suvrajit issued server command: /whitelist add eagledares1
+[18:10:30] [Server thread/INFO]: [Suvrajit: Added eagledares1 to the whitelist]
+[18:11:11] [Server thread/INFO]: Suvrajit lost connection: Disconnected
+[18:11:11] [Server thread/INFO]: Suvrajit left the game
+[18:11:29] [User Authenticator #2/INFO]: UUID of player Suvrajit is 4e652eb0-f42e-34fb-8424-539c2da8221f
+[18:11:32] [User Authenticator #2/INFO]: UUID of player eagledares1 is f76c96ba-8b32-3fcd-85e9-66dc6f64378b
+[18:11:38] [Server thread/INFO]: Suvrajit joined the game
+[18:11:38] [Server thread/INFO]: Suvrajit[/[0:0:0:0:0:0:0:1%0]:51106] logged in with entity id 139 at ([world_nether]37.08222436396109, 134.0, 241.69999998807907)
+[18:12:03] [Server thread/INFO]: eagledares1 joined the game
+[18:12:03] [Server thread/INFO]: eagledares1[/127.0.0.1:44008] logged in with entity id 140 at ([world_nether]34.90092182906673, 135.0, 235.02841406524198)
+[18:12:03] [Server thread/INFO]: eagledares1 lost connection: Timed out
+[18:12:03] [Server thread/INFO]: eagledares1 left the game
+[18:12:20] [User Authenticator #2/INFO]: UUID of player eagledares1 is f76c96ba-8b32-3fcd-85e9-66dc6f64378b
+[18:12:39] [Server thread/INFO]: eagledares1 joined the game
+[18:12:39] [Server thread/INFO]: eagledares1[/127.0.0.1:41666] logged in with entity id 141 at ([world_nether]34.90092182906673, 135.0, 235.02841406524198)
+[18:12:54] [Async Chat Thread - #0/INFO]: <eagledares1> ;o
+[18:12:57] [Async Chat Thread - #0/INFO]: <Suvrajit> hai hai
+[18:13:00] [Async Chat Thread - #0/INFO]: <Suvrajit> okie, so
+[18:13:04] [Async Chat Thread - #0/INFO]: <Suvrajit> make sure to uhhhhhhhhhh
+[18:13:08] [Async Chat Thread - #0/INFO]: <Suvrajit> sneak
+[18:13:09] [Async Chat Thread - #0/INFO]: <Suvrajit> always
+[18:13:13] [Server thread/INFO]: Suvrajit issued server command: /gamemode survival eagledares1
+[18:13:18] [Server thread/INFO]: Suvrajit issued server command: /effect give eagledares1 minecraft:regeneration infinite 3
+[18:13:22] [Server thread/INFO]: Suvrajit issued server command: /title eagledares1 times 0.5s 1s 0.5s
+[18:13:22] [Server thread/INFO]: [Suvrajit: Changed title display times for eagledares1]
+[18:13:25] [Async Chat Thread - #0/INFO]: <eagledares1> snEak
+[18:13:28] [Async Chat Thread - #0/INFO]: <Suvrajit> yuh
+[18:13:30] [Async Chat Thread - #0/INFO]: <Suvrajit> crouch
+[18:13:35] [Async Chat Thread - #0/INFO]: <Suvrajit> go to the tunnel
+[18:13:37] [Async Chat Thread - #0/INFO]: <Suvrajit> see you :>
+[18:13:40] [Async Chat Thread - #0/INFO]: <Suvrajit> on the other side
+[18:13:41] [Async Chat Thread - #0/INFO]: <Suvrajit> ~
+[18:13:44] [Server thread/INFO]: Suvrajit issued server command: /gamemode spectator
+[18:13:44] [Server thread/INFO]: [Suvrajit: Set own game mode to Spectator Mode]
+[18:13:52] [Server thread/INFO]: Suvrajit issued server command: /gamemode survival
+[18:13:52] [Server thread/INFO]: [Suvrajit: Set own game mode to Survival Mode]
+[18:13:59] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:13:59] [Server thread/INFO]: [eagledares1: Showing new subtitle for eagledares1]
+[18:13:59] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:14:01] [Server thread/INFO]: eagledares1 has made the advancement [Sneak 100]
+[18:14:04] [Server thread/INFO]: Suvrajit issued server command: /gamemode creative
+[18:14:04] [Server thread/INFO]: [Suvrajit: Set own game mode to Creative Mode]
+[18:14:10] [Server thread/INFO]: [@: Changed title display times for Suvrajit]
+[18:14:10] [Server thread/INFO]: [@: Changed title display times for Suvrajit]
+[18:14:11] [Server thread/INFO]: Suvrajit issued server command: /gamemode spectator
+[18:14:11] [Server thread/INFO]: [Suvrajit: Set own game mode to Spectator Mode]
+[18:14:12] [Server thread/INFO]: [Suvrajit: Showing new title for Suvrajit]
+[18:14:12] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:14:12] [Server thread/INFO]: [Suvrajit: Showing new subtitle for Suvrajit]
+[18:14:12] [Server thread/INFO]: [eagledares1: Showing new subtitle for eagledares1]
+[18:14:12] [Server thread/INFO]: [Suvrajit: Showing new title for Suvrajit]
+[18:14:12] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:14:12] [Server thread/INFO]: [Suvrajit: Showing new subtitle for Suvrajit]
+[18:14:12] [Server thread/INFO]: [eagledares1: Showing new subtitle for eagledares1]
+[18:14:16] [Server thread/INFO]: [Suvrajit: Showing new title for Suvrajit]
+[18:14:16] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:14:16] [Server thread/INFO]: [Suvrajit: Showing new title for Suvrajit]
+[18:14:16] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:14:23] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:14:23] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:14:26] [Server thread/INFO]: [Suvrajit: Showing new title for Suvrajit]
+[18:14:26] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:14:26] [Server thread/INFO]: [Suvrajit: Showing new subtitle for Suvrajit]
+[18:14:26] [Server thread/INFO]: [eagledares1: Showing new subtitle for eagledares1]
+[18:14:26] [Server thread/INFO]: [Suvrajit: Showing new title for Suvrajit]
+[18:14:26] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:14:26] [Server thread/INFO]: [Suvrajit: Showing new subtitle for Suvrajit]
+[18:14:26] [Server thread/INFO]: [eagledares1: Showing new subtitle for eagledares1]
+[18:14:36] [Server thread/INFO]: [Suvrajit: Showing new title for Suvrajit]
+[18:14:36] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:14:36] [Server thread/INFO]: [Suvrajit: Showing new subtitle for Suvrajit]
+[18:14:36] [Server thread/INFO]: [eagledares1: Showing new subtitle for eagledares1]
+[18:14:36] [Server thread/INFO]: [Suvrajit: Showing new title for Suvrajit]
+[18:14:36] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:14:36] [Server thread/INFO]: [Suvrajit: Showing new subtitle for Suvrajit]
+[18:14:36] [Server thread/INFO]: [eagledares1: Showing new subtitle for eagledares1]
+[18:14:58] [Async Chat Thread - #2/INFO]: <Suvrajit> dont stand thereeeeeeee
+[18:15:02] [Async Chat Thread - #2/INFO]: <Suvrajit> tf u doingg
+[18:15:05] [Async Chat Thread - #2/INFO]: <eagledares1> well how do i-
+[18:15:09] [Async Chat Thread - #2/INFO]: <eagledares1> go furthur
+[18:15:11] [Async Chat Thread - #2/INFO]: <Suvrajit> go??
+[18:15:16] [Async Chat Thread - #2/INFO]: <Suvrajit> jus go
+[18:15:18] [Async Chat Thread - #2/INFO]: <Suvrajit> dont sneak
+[18:15:23] [Async Chat Thread - #2/INFO]: <eagledares1> oh
+[18:15:27] [Server thread/INFO]: eagledares1 has made the advancement [Light as a Rabbit]
+[18:15:45] [Async Chat Thread - #2/INFO]: <Suvrajit> the warden alr noticed u
+[18:15:52] [Server thread/INFO]: [Suvrajit: Showing new title for Suvrajit]
+[18:15:52] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:15:52] [Server thread/INFO]: [Suvrajit: Showing new subtitle for Suvrajit]
+[18:15:52] [Server thread/INFO]: [eagledares1: Showing new subtitle for eagledares1]
+[18:15:52] [Server thread/INFO]: [Suvrajit: Showing new title for Suvrajit]
+[18:15:52] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:15:52] [Server thread/INFO]: [Suvrajit: Showing new subtitle for Suvrajit]
+[18:15:52] [Server thread/INFO]: [eagledares1: Showing new subtitle for eagledares1]
+[18:15:52] [Server thread/INFO]: [Suvrajit: Showing new title for Suvrajit]
+[18:15:52] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:15:54] [Server thread/INFO]: [Suvrajit: Showing new title for Suvrajit]
+[18:15:54] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:15:54] [Server thread/INFO]: [Suvrajit: Showing new subtitle for Suvrajit]
+[18:15:54] [Server thread/INFO]: [eagledares1: Showing new subtitle for eagledares1]
+[18:15:54] [Server thread/INFO]: [Suvrajit: Showing new title for Suvrajit]
+[18:15:54] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:15:54] [Server thread/INFO]: [Suvrajit: Showing new title for Suvrajit]
+[18:15:54] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:15:54] [Server thread/INFO]: [Suvrajit: Showing new subtitle for Suvrajit]
+[18:15:54] [Server thread/INFO]: [eagledares1: Showing new subtitle for eagledares1]
+[18:16:22] [Async Chat Thread - #2/INFO]: <Suvrajit> oh cmon
+[18:16:34] [Async Chat Thread - #2/INFO]: <Suvrajit> u can cross it
+[18:16:56] [Async Chat Thread - #2/INFO]: <Suvrajit> dig
+[18:16:59] [Server thread/INFO]: eagledares1 was obliterated by a sonically-charged shriek
+[18:17:03] [Async Chat Thread - #2/INFO]: <Suvrajit> oof
+[18:17:11] [Server thread/INFO]: Suvrajit issued server command: /tp eagledares1 Suvrajit
+[18:17:11] [Server thread/INFO]: [Suvrajit: Teleported eagledares1 to Suvrajit]
+[18:17:20] [Server thread/INFO]: Suvrajit issued server command: /effect give eagledares1 minecraft:regeneration infinite 3
+[18:17:20] [Server thread/INFO]: [Suvrajit: Applied effect Regeneration to eagledares1]
+[18:17:25] [Async Chat Thread - #2/INFO]: <eagledares1> tp me there
+[18:17:28] [Async Chat Thread - #2/INFO]: <Suvrajit> mhm
+[18:17:29] [Async Chat Thread - #2/INFO]: <Suvrajit> i did
+[18:18:14] [Server thread/INFO]: eagledares1 fell from a high place
+[18:18:19] [Async Chat Thread - #2/INFO]: <Suvrajit> what?
+[18:18:19] [Server thread/INFO]: Suvrajit issued server command: /jump
+[18:18:28] [Async Chat Thread - #2/INFO]: <Suvrajit> wtf TT TT
+[18:18:38] [Server thread/INFO]: Suvrajit issued server command: /tp eagledares1
+[18:18:38] [Server thread/INFO]: [Suvrajit: Teleported Suvrajit to eagledares1]
+[18:18:47] [Async Chat Thread - #2/INFO]: <eagledares1> owo.
+[18:18:55] [Async Chat Thread - #2/INFO]: <Suvrajit> ur ping.
+[18:18:55] [Server thread/WARN]: eagledares1 was kicked due to keepalive timeout!
+[18:18:55] [Server thread/INFO]: eagledares1 lost connection: Timed out
+[18:18:56] [Server thread/INFO]: eagledares1 left the game
+[18:19:12] [User Authenticator #3/INFO]: UUID of player eagledares1 is f76c96ba-8b32-3fcd-85e9-66dc6f64378b
+[18:19:26] [Server thread/INFO]: Suvrajit issued server command: /gamemode survival
+[18:19:26] [Server thread/INFO]: [Suvrajit: Set own game mode to Survival Mode]
+[18:19:28] [Server thread/INFO]: eagledares1 joined the game
+[18:19:28] [Server thread/INFO]: eagledares1[/127.0.0.1:49234] logged in with entity id 173 at ([world_nether]29.749960023011138, 141.0, 243.13649138003512)
+[18:19:33] [Server thread/INFO]: Suvrajit tried to swim in lava
+[18:19:41] [Server thread/INFO]: Suvrajit issued server command: /effect give eagledares1 minecraft:regeneration infinite 3
+[18:19:41] [Server thread/INFO]: [Suvrajit: Applied effect Regeneration to eagledares1]
+[18:19:43] [Server thread/INFO]: Suvrajit issued server command: /gamemode spectator
+[18:19:43] [Server thread/INFO]: [Suvrajit: Set own game mode to Spectator Mode]
+[18:19:58] [Server thread/INFO]: Suvrajit issued server command: /gamemode creative
+[18:19:58] [Server thread/INFO]: [Suvrajit: Set own game mode to Creative Mode]
+[18:20:05] [Server thread/INFO]: Suvrajit issued server command: /gamemode spectator
+[18:20:05] [Server thread/INFO]: [Suvrajit: Set own game mode to Spectator Mode]
+[18:20:18] [Server thread/INFO]: Suvrajit issued server command: /gamemode survival
+[18:20:18] [Server thread/INFO]: [Suvrajit: Set own game mode to Survival Mode]
+[18:20:22] [Server thread/INFO]: Suvrajit issued server command: /gamemode creative
+[18:20:22] [Server thread/INFO]: [Suvrajit: Set own game mode to Creative Mode]
+[18:20:32] [Server thread/INFO]: Suvrajit issued server command: /gamemode spectator
+[18:20:32] [Server thread/INFO]: [Suvrajit: Set own game mode to Spectator Mode]
+[18:20:36] [Server thread/INFO]: Suvrajit issued server command: /tp eagledares1 Suvrajit
+[18:20:36] [Server thread/INFO]: [Suvrajit: Teleported eagledares1 to Suvrajit]
+[18:20:40] [Server thread/INFO]: eagledares1 tried to swim in lava
+[18:20:48] [Async Chat Thread - #4/INFO]: <Suvrajit> bro u legit.
+[18:21:02] [Server thread/INFO]: Suvrajit issued server command: /op eagledares1
+[18:21:02] [Server thread/INFO]: [Suvrajit: Made eagledares1 a server operator]
+[18:21:07] [Async Chat Thread - #4/INFO]: <eagledares1> I dint even do anything this time
+[18:21:10] [Async Chat Thread - #4/INFO]: <eagledares1> T-T
+[18:21:12] [Async Chat Thread - #4/INFO]: <Suvrajit> ima cry cus of yo ping
+[18:21:20] [Server thread/INFO]: Suvrajit issued server command: /tp eagledares1 Suvrajit
+[18:21:20] [Server thread/INFO]: [Suvrajit: Teleported eagledares1 to Suvrajit]
+[18:21:32] [Server thread/INFO]: eagledares1 fell from a high place
+[18:21:38] [Async Chat Thread - #4/INFO]: <eagledares1> ..
+[18:21:42] [Async Chat Thread - #4/INFO]: <Suvrajit> what LMAO
+[18:21:46] [Async Chat Thread - #4/INFO]: <Suvrajit> how can u die-
+[18:22:02] [Async Chat Thread - #4/INFO]: <Suvrajit> r u placing blocks nerd
+[18:22:14] [Async Chat Thread - #4/INFO]: <eagledares1> no q-q..
+[18:22:19] [Server thread/INFO]: Suvrajit issued server command: /gamemode creative
+[18:22:19] [Server thread/INFO]: [Suvrajit: Set own game mode to Creative Mode]
+[18:22:21] [Async Chat Thread - #4/INFO]: <eagledares1> im not even movingg
+[18:22:28] [Async Chat Thread - #4/INFO]: <Suvrajit> da helllll
+[18:22:30] [Server thread/INFO]: Suvrajit issued server command: /gamemode spectator
+[18:22:30] [Server thread/INFO]: [Suvrajit: Set own game mode to Spectator Mode]
+[18:22:36] [Async Chat Thread - #4/INFO]: <Suvrajit> okay, well ima tp u down here
+[18:22:40] [Server thread/INFO]: Suvrajit issued server command: /tp eagledares1 Suvrajit
+[18:22:40] [Server thread/INFO]: [Suvrajit: Teleported eagledares1 to Suvrajit]
+[18:22:44] [Server thread/INFO]: eagledares1 tried to swim in lava
+[18:22:48] [Async Chat Thread - #4/INFO]: <Suvrajit> o m g
+[18:22:54] [Server thread/INFO]: Suvrajit issued server command: /gamemode creative
+[18:22:54] [Server thread/INFO]: [Suvrajit: Set own game mode to Creative Mode]
+[18:23:03] [Server thread/INFO]: Suvrajit issued server command: /gamemode spectator
+[18:23:03] [Server thread/INFO]: [Suvrajit: Set own game mode to Spectator Mode]
+[18:23:09] [Server thread/INFO]: Suvrajit issued server command: /tp eagledares1 Suvrajit
+[18:23:09] [Server thread/INFO]: [Suvrajit: Teleported eagledares1 to Suvrajit]
+[18:23:31] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:23:31] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:23:31] [Server thread/INFO]: [eagledares1: Showing new subtitle for eagledares1]
+[18:23:31] [Server thread/INFO]: [eagledares1: Showing new subtitle for eagledares1]
+[18:23:35] [Server thread/INFO]: Suvrajit issued server command: /gamemode survival
+[18:23:35] [Server thread/INFO]: [Suvrajit: Set own game mode to Survival Mode]
+[18:23:37] [Server thread/INFO]: Suvrajit issued server command: /gamemode creative
+[18:23:37] [Server thread/INFO]: [Suvrajit: Set own game mode to Creative Mode]
+[18:23:37] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:23:37] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:23:37] [Server thread/INFO]: [eagledares1: Showing new subtitle for eagledares1]
+[18:24:09] [Server thread/INFO]: Suvrajit issued server command: /tp eagledares1
+[18:24:09] [Server thread/INFO]: [Suvrajit: Teleported Suvrajit to eagledares1]
+[18:24:20] [Async Chat Thread - #6/INFO]: <Suvrajit> LOL
+[18:24:29] [Async Chat Thread - #6/INFO]: <Suvrajit> it said u to go over
+[18:24:31] [Async Chat Thread - #6/INFO]: <Suvrajit> nerd
+[18:24:37] [Async Chat Thread - #6/INFO]: <eagledares1> beyound
+[18:24:40] [Async Chat Thread - #6/INFO]: <eagledares1> beyond
+[18:24:44] [Async Chat Thread - #6/INFO]: <Suvrajit> beyond means
+[18:24:46] [Async Chat Thread - #6/INFO]: <Suvrajit> over TT TT
+[18:24:52] [Async Chat Thread - #6/INFO]: <eagledares1> im too dumb for this shit
+[18:24:52] [Async Chat Thread - #6/INFO]: <Suvrajit> u have to cross it-
+[18:25:36] [Async Chat Thread - #6/INFO]: <Suvrajit> NAH
+[18:25:37] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:25:37] [Server thread/INFO]: [eagledares1: Showing new subtitle for eagledares1]
+[18:25:38] [Async Chat Thread - #6/INFO]: <Suvrajit> THATS CRINGE
+[18:25:40] [Server thread/INFO]: Suvrajit issued server command: /gamemode spectator
+[18:25:40] [Server thread/INFO]: [Suvrajit: Set own game mode to Spectator Mode]
+[18:25:42] [Async Chat Thread - #6/INFO]: <Suvrajit> CH
+[18:25:47] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:25:47] [Server thread/INFO]: [eagledares1: Showing new title for eagledares1]
+[18:26:01] [Async Chat Thread - #6/INFO]: <Suvrajit> no
+[18:26:25] [Async Chat Thread - #6/INFO]: <eagledares1> yes, I'll marry you T-T
+[18:26:33] [Async Chat Thread - #6/INFO]: <Suvrajit> LMAO
+[18:26:34] [Async Chat Thread - #6/INFO]: <Suvrajit> NAH
+[18:26:36] [Async Chat Thread - #6/INFO]: <Suvrajit> BRO, NO
+[18:26:43] [Async Chat Thread - #6/INFO]: <eagledares1> thats so cute bruh :(
+[18:26:43] [Async Chat Thread - #6/INFO]: <Suvrajit> I DIDNT PLAN TO MAKE IT THIS CRINGE BUT
+[18:26:48] [Async Chat Thread - #6/INFO]: <Suvrajit> i dint hab
+[18:26:49] [Async Chat Thread - #6/INFO]: <Suvrajit> any ideas
+[18:26:52] [Async Chat Thread - #6/INFO]: <eagledares1> its not cringe
+[18:26:56] [Async Chat Thread - #6/INFO]: <eagledares1> its making me cry
+[18:26:59] [Async Chat Thread - #6/INFO]: <eagledares1> lalalalal
+[18:27:00] [Async Chat Thread - #6/INFO]: <eagledares1> anyways
+[18:27:02] [Async Chat Thread - #6/INFO]: <Suvrajit> if u didnt get it, every obstacle or wtv ucall it was a metaphor
+[18:27:05] [Async Chat Thread - #6/INFO]: <Suvrajit> what
+[18:27:07] [Async Chat Thread - #6/INFO]: <Suvrajit> bru
+[18:27:09] [Server thread/INFO]: Suvrajit issued server command: /gamemode creative
+[18:27:09] [Server thread/INFO]: [Suvrajit: Set own game mode to Creative Mode]
+[18:27:18] [Async Chat Thread - #6/INFO]: <Suvrajit> elo
+[18:27:26] [Async Chat Thread - #6/INFO]: <Suvrajit> mwah
+[18:27:31] [Async Chat Thread - #6/INFO]: <eagledares1> i love you:(
+[18:27:38] [Async Chat Thread - #6/INFO]: <eagledares1> mwah
+[18:27:38] [Async Chat Thread - #6/INFO]: <Suvrajit> i love you too
+[18:27:41] [Async Chat Thread - #6/INFO]: <Suvrajit> :)
+[18:28:09] [Async Chat Thread - #6/INFO]: <Suvrajit> u're pretty.
+[18:28:17] [Async Chat Thread - #6/INFO]: <Suvrajit> lets burn up that tree
+[18:28:20] [Async Chat Thread - #6/INFO]: <eagledares1> u;re prettier
+[18:28:21] [Server thread/INFO]: Suvrajit issued server command: /kill Suvrajit
+[18:28:21] [Server thread/INFO]: Suvrajit was killed
+[18:28:21] [Server thread/INFO]: [Suvrajit: Killed Suvrajit]
+[18:28:27] [Server thread/INFO]: Suvrajit issued server command: /tp eagledares1 Suvrajit
+[18:28:27] [Server thread/INFO]: [Suvrajit: Teleported eagledares1 to Suvrajit]
+[18:28:49] [Async Chat Thread - #6/INFO]: <Suvrajit> oof
+[18:29:09] [Server thread/WARN]: eagledares1 was kicked due to keepalive timeout!
+[18:29:09] [Server thread/INFO]: eagledares1 lost connection: Timed out
+[18:29:09] [Server thread/INFO]: eagledares1 left the game
+[18:29:17] [Server thread/INFO]: Suvrajit issued server command: /gamerule doFireTick false
+[18:29:17] [Server thread/INFO]: [Suvrajit: Gamerule doFireTick is now set to: false]
+[18:29:27] [User Authenticator #4/INFO]: UUID of player eagledares1 is f76c96ba-8b32-3fcd-85e9-66dc6f64378b
+[18:29:44] [Server thread/INFO]: eagledares1 joined the game
+[18:29:44] [Server thread/INFO]: eagledares1[/127.0.0.1:50388] logged in with entity id 191 at ([world_nether]41.30000001192093, 133.0, 235.22211077640873)
+[18:29:53] [Async Chat Thread - #8/INFO]: <Suvrajit> hM
+[18:29:59] [Async Chat Thread - #8/INFO]: <Suvrajit> ah
+[18:30:29] [Server thread/WARN]: eagledares1 was kicked due to keepalive timeout!
+[18:30:29] [Server thread/INFO]: eagledares1 lost connection: Timed out
+[18:30:29] [Server thread/INFO]: eagledares1 left the game
+[18:30:44] [User Authenticator #5/INFO]: UUID of player eagledares1 is f76c96ba-8b32-3fcd-85e9-66dc6f64378b
+[18:31:01] [Server thread/INFO]: eagledares1 joined the game
+[18:31:01] [Server thread/INFO]: eagledares1[/127.0.0.1:36862] logged in with entity id 192 at ([world_nether]41.30000001192093, 133.0, 235.22211077640873)
+[18:31:12] [Server thread/INFO]: eagledares1 lost connection: Disconnected
+[18:31:12] [Server thread/INFO]: eagledares1 left the game
+[18:31:51] [User Authenticator #6/INFO]: UUID of player eagledares1 is f76c96ba-8b32-3fcd-85e9-66dc6f64378b
+[18:32:21] [Server thread/INFO]: com.mojang.authlib.GameProfile@663658e2[id=f76c96ba-8b32-3fcd-85e9-66dc6f64378b,name=eagledares1,properties={textures=[Property[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTYwMDQyNTMyMDc1MywKICAicHJvZmlsZUlkIiA6ICJhZDFkN2U0ZTg1ZjM0ODE0YjJjNWIyZWRjYTIxZmJhZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJIb3N0aWxlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNjMDcxNTIzMzYzY2I1NGE2NjA5M2M4ZDczMDE2YTdmMDVhNWUxNzVkMGQxYmM1ZDA1Y2NhMjg2YzI4Njk3YzQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lN2RmZWExNmRjODNjOTdkZjAxYTEyZmFiYmQxMjE2MzU5YzBjZDBlYTQyZjk5OTliNmU5N2M1ODQ5NjNlOTgwIgogICAgfQogIH0KfQ==, signature=AOEAAUEY4pY2BggfUu0VLeiVtuI6HTtFHyINJ1f9SZnPMJYPM+6WcReozW0XT5HWxJ4iy8JwxoG+o1RVyt80l4NL5ugyS/tM2TjotgKIpvgi7aVDmpYFWpZ4aIbtUKnZ2nn3lRbLeut7mxnL5CR7ES3gBZ8ndxCS4ldOxmewQnAJcdnidL98CvJp0huzDdli/w1jmPsZt6ZP6PBKaXwI+8tbg+21bISvegBoAZZGBzjXfJobq+1JfibwmYZ6Cko5owYSXmqouwtLqAU/jjUm1k3SP4olYetyWVmlmT/lCWvnuEP4nelVZteQQydXaCC8maXtJQmGI3tghsI0M8jk/DCBaA7BDJuUzG5bcjmOTTdi2c48WgQYoX+PyGoal7vssE05g2amCxWmm/FTMq/atLeZvhWMF0kHJrF7TgltzBNltdyqrNgGNMPBsXknQ+GA/LQKClsslTAlgjq5/2LDPO1RvutxsD13/ubD0CEwS6sVVo4xtyREPkyvtr4xUy4nML8JAGjlV9OQPBe+tjKI1d1w483Wtpn85IB6GUovcDYxTPoKqENEuamGtBEtuUkFFrA58SIEWB13IU8rk/drP4SeS0oCBPVCpzNxhLGyZIo/A0AVKpF0Zzs6TJyUrjIBWzxWZ/cJuKyc2NCAZ8LfzTNDplJwkMAnh42FWN57pjk=]]}] lost connection: Timed out
+[18:33:10] [Server thread/INFO]: Suvrajit issued server command: /gamerule doFireTick true
+[18:33:10] [Server thread/INFO]: [Suvrajit: Gamerule doFireTick is now set to: true]
+[18:34:01] [User Authenticator #7/INFO]: UUID of player eagledares1 is f76c96ba-8b32-3fcd-85e9-66dc6f64378b
+[18:34:09] [Server thread/INFO]: eagledares1 joined the game
+[18:34:09] [Server thread/INFO]: eagledares1[/127.0.0.1:51932] logged in with entity id 194 at ([world_nether]41.30000001192093, 133.0, 235.22211077640873)
+[18:34:23] [Async Chat Thread - #10/INFO]: <Suvrajit> dont rejoin
+[18:34:54] [Server thread/WARN]: eagledares1 was kicked due to keepalive timeout!
+[18:34:54] [Server thread/INFO]: eagledares1 lost connection: Timed out
+[18:34:54] [Server thread/INFO]: eagledares1 left the game
+[18:35:29] [User Authenticator #8/INFO]: UUID of player eagledares1 is f76c96ba-8b32-3fcd-85e9-66dc6f64378b
+[18:35:47] [Server thread/INFO]: eagledares1 joined the game
+[18:35:47] [Server thread/INFO]: eagledares1[/127.0.0.1:42358] logged in with entity id 195 at ([world_nether]41.30000001192093, 133.0, 235.22211077640873)
+[18:36:03] [Server thread/INFO]: eagledares1 issued server command: /gamemode creative
+[18:36:03] [Server thread/INFO]: [eagledares1: Set own game mode to Creative Mode]
+[18:36:20] [Async Chat Thread - #12/INFO]: <Suvrajit> o-o
+[18:36:32] [Server thread/WARN]: eagledares1 was kicked due to keepalive timeout!
+[18:36:32] [Server thread/INFO]: eagledares1 lost connection: Timed out
+[18:36:32] [Server thread/INFO]: eagledares1 left the game
+[18:37:22] [User Authenticator #9/INFO]: UUID of player eagledares1 is f76c96ba-8b32-3fcd-85e9-66dc6f64378b
+[18:37:34] [Server thread/INFO]: eagledares1 joined the game
+[18:37:34] [Server thread/INFO]: eagledares1[/127.0.0.1:41014] logged in with entity id 199 at ([world_nether]41.30000001192093, 133.0, 235.22211077640873)
+[18:37:53] [Server thread/INFO]: eagledares1 lost connection: Disconnected
+[18:37:53] [Server thread/INFO]: eagledares1 left the game
+[18:49:59] [Server thread/INFO]: Suvrajit issued server command: /gamerule randomTickSpeed 100
+[18:49:59] [Server thread/INFO]: [Suvrajit: Gamerule randomTickSpeed is now set to: 100]
+[18:50:17] [Server thread/INFO]: Suvrajit issued server command: /gamerule randomTickSpeed 200
+[18:50:17] [Server thread/INFO]: [Suvrajit: Gamerule randomTickSpeed is now set to: 200]
+[18:50:20] [Server thread/INFO]: Suvrajit lost connection: Disconnected
+[18:50:21] [Server thread/INFO]: Suvrajit left the game
+[18:50:31] [Server thread/INFO]: Stopping the server
+[18:50:31] [Server thread/INFO]: Stopping server
+[18:50:31] [Server thread/INFO]: [AntiPopup] Disabling AntiPopup v9
+[18:50:31] [Server thread/INFO]: [AntiPopup] Disabled PacketEvents.
+[18:50:31] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.1.0
+[18:50:31] [Server thread/INFO]: [AdvancedPortals] Disabling AdvancedPortals v0.9.3
+[18:50:31] [Server thread/INFO]: Advanced portals are being disabled!
+[18:50:31] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.1
+[18:50:31] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.16+6534-2066eb4
+[18:50:31] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:50:31] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.1
+[18:50:31] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:50:31] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:50:31] [Server thread/INFO]: Saving players
+[18:50:31] [Server thread/INFO]: Saving worlds
+[18:50:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:50:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:50:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:50:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:50:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[18:50:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:50:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:50:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:50:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:50:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:50:32] [Server thread/INFO]: [ChunkHolderManager] Saved 38 block chunks, 85 entity chunks, 0 poi chunks in world 'world_nether' in 0.07s
+[18:50:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:50:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:50:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:50:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:50:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:50:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[18:50:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:50:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:50:32] [Server thread/INFO]: Flushing Chunk IO
+[18:50:32] [Server thread/INFO]: Closing Thread Pool
+[18:50:32] [Server thread/INFO]: Closing Server
