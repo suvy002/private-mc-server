@@ -1,126 +1,230 @@
-[05:17:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:17:10] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[05:17:11] [ServerMain/INFO]: No existing world data, creating new world
-[05:17:12] [ServerMain/INFO]: Loaded 1174 recipes
-[05:17:12] [ServerMain/INFO]: Loaded 1271 advancements
-[05:17:12] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[05:17:12] [Server thread/INFO]: Loading properties
-[05:17:12] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
-[05:17:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:17:13] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:17:13] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[09:04:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:04:03] [ServerMain/INFO]: Loaded 1174 recipes
+[09:04:03] [ServerMain/INFO]: Loaded 1271 advancements
+[09:04:03] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[09:04:03] [Server thread/INFO]: Loading properties
+[09:04:03] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[09:04:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:04:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:04:05] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[05:17:13] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[05:17:14] [Server thread/INFO]: Default game type: SURVIVAL
-[05:17:14] [Server thread/INFO]: Generating keypair
-[05:17:14] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[05:17:14] [Server thread/INFO]: Using epoll channel type
-[05:17:14] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[05:17:14] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[05:17:14] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.1
-[05:17:14] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.1 is now loaded. Registering protocol transformers and injecting...
-[05:17:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[05:17:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[05:17:15] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[05:17:15] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[05:17:16] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[05:17:16] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.1
-[05:17:16] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0+6678-55745ad
-[05:17:17] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@8cc0b5a]
-[05:17:17] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.2.0
-[05:17:17] [Server thread/INFO]: [AntiPopup] Loading server plugin AntiPopup v9
-[05:17:18] [Server thread/INFO]: [AntiPopup] Loaded PacketEvents.
-[05:17:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:17:18] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[05:17:18] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[05:17:19] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[05:17:19] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
-[05:17:19] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[05:17:19] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[05:17:19] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
-[05:17:20] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.2.0
-[05:17:21] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
-[05:17:21] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[05:17:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:17:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:17:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:17:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:17:21] [Server thread/INFO]: Preparing level "world"
-[05:17:21] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:17:21] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[05:17:21] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[05:17:21] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[05:17:21] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[05:17:21] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[05:17:21] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:17:21] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.2.0
-[05:17:21] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: c69db2b
-[05:17:21] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[05:17:21] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:17:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:17:32] [Server thread/INFO]: Time elapsed: 118 ms
-[05:17:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[05:17:32] [Server thread/INFO]: Time elapsed: 59 ms
-[05:17:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[05:17:32] [Server thread/INFO]: Time elapsed: 62 ms
-[05:17:32] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.1
-[05:17:32] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
-[05:17:32] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.1
-[05:17:32] [Server thread/INFO]: [AntiPopup] Enabling AntiPopup v9
-[05:17:32] [Server thread/INFO]: [AntiPopup] Config enabled.
-[05:17:32] [Server thread/INFO]: [AntiPopup] Loaded a hook for ViaVersion.
-[05:17:32] [Server thread/INFO]: [AntiPopup] Registered a modifier targeted for versions older than 1.20.5.
-[05:17:32] [Server thread/INFO]: [AntiPopup] Initiated PacketEvents.
-[05:17:32] [Server thread/INFO]: [AntiPopup] Hooked on 1.20.4
-[05:17:32] [Server thread/INFO]: [AntiPopup] Commands registered.
-[05:17:32] [Server thread/INFO]: [AntiPopup] Logger filter enabled.
-[05:17:32] [Server thread/INFO]: Running delayed init tasks
-[05:17:32] [Server thread/INFO]: Done (19.819s)! For help, type "help"
-[05:17:32] [Server thread/INFO]: Timings Reset
-[05:17:32] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[05:17:32] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] Checking for Updates ... 
-[05:17:32] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] No new version available
-[05:21:49] [User Authenticator #0/INFO]: UUID of player Suvrajit is 4e652eb0-f42e-34fb-8424-539c2da8221f
-[05:21:50] [Server thread/INFO]: Suvrajit joined the game
-[05:21:50] [Server thread/INFO]: Suvrajit[/[0:0:0:0:0:0:0:1%0]:58518] logged in with entity id 391 at ([world]-3.5, 96.0, 7.5)
-[05:23:28] [Server thread/INFO]: Suvrajit has made the advancement [Stone Age]
-[05:23:41] [Server thread/INFO]: Suvrajit has made the advancement [Getting an Upgrade]
-[05:28:20] [Server thread/INFO]: Suvrajit has made the advancement [Sweet Dreams]
-[05:28:50] [Server thread/INFO]: Suvrajit lost connection: Disconnected
-[05:28:50] [Server thread/INFO]: Suvrajit left the game
-[05:28:56] [Server thread/INFO]: Stopping the server
-[05:28:56] [Server thread/INFO]: Stopping server
-[05:28:56] [Server thread/INFO]: [AntiPopup] Disabling AntiPopup v9
-[05:28:56] [Server thread/INFO]: [AntiPopup] Disabled PacketEvents.
-[05:28:56] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.2.0
-[05:28:56] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
-[05:28:56] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[05:28:56] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.1
-[05:28:56] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[05:28:56] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.1
-[05:28:56] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[05:28:56] [Server thread/INFO]: Saving players
-[05:28:56] [Server thread/INFO]: Saving worlds
-[05:28:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:28:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[05:28:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[05:28:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[05:28:57] [Server thread/INFO]: [ChunkHolderManager] Saved 1509 block chunks, 303 entity chunks, 4 poi chunks in world 'world' in 0.77s
-[05:28:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:28:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[05:28:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[05:28:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[05:28:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[05:28:57] [Server thread/INFO]: [ChunkHolderManager] Saved 1501 block chunks, 10 entity chunks, 0 poi chunks in world 'world_nether' in 0.42s
-[05:28:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:28:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[05:28:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[05:28:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[05:28:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[05:28:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[05:28:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:28:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[05:28:58] [Server thread/INFO]: Flushing Chunk IO
-[05:28:58] [Server thread/INFO]: Closing Thread Pool
-[05:28:58] [Server thread/INFO]: Closing Server
+[09:04:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[09:04:05] [Server thread/INFO]: Default game type: SURVIVAL
+[09:04:05] [Server thread/INFO]: Generating keypair
+[09:04:05] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[09:04:05] [Server thread/INFO]: Using epoll channel type
+[09:04:05] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[09:04:05] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[09:04:06] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.1
+[09:04:06] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.1 is now loaded. Registering protocol transformers and injecting...
+[09:04:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[09:04:07] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[09:04:07] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[09:04:07] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[09:04:07] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[09:04:07] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.1
+[09:04:07] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0+6678-55745ad
+[09:04:08] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1b4e1597]
+[09:04:08] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.2.0
+[09:04:08] [Server thread/INFO]: [AntiPopup] Loading server plugin AntiPopup v9
+[09:04:10] [Server thread/INFO]: [AntiPopup] Loaded PacketEvents.
+[09:04:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:04:10] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[09:04:10] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[09:04:10] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[09:04:10] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
+[09:04:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[09:04:10] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[09:04:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[09:04:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.2.0
+[09:04:12] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
+[09:04:12] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[09:04:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:04:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:04:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:04:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:04:12] [Server thread/INFO]: Preparing level "world"
+[09:04:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:04:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[09:04:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[09:04:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[09:04:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[09:04:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[09:04:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:04:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.2.0
+[09:04:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: c69db2b
+[09:04:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[09:04:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:04:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:04:14] [Server thread/INFO]: Time elapsed: 233 ms
+[09:04:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:04:15] [Server thread/INFO]: Time elapsed: 942 ms
+[09:04:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:04:15] [Server thread/INFO]: Time elapsed: 123 ms
+[09:04:15] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.1
+[09:04:15] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[09:04:15] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.1
+[09:04:15] [Server thread/INFO]: [AntiPopup] Enabling AntiPopup v9
+[09:04:15] [Server thread/INFO]: [AntiPopup] Config enabled.
+[09:04:15] [Server thread/INFO]: [AntiPopup] Loaded a hook for ViaVersion.
+[09:04:15] [Server thread/INFO]: [AntiPopup] Registered a modifier targeted for versions older than 1.20.5.
+[09:04:15] [Server thread/INFO]: [AntiPopup] Initiated PacketEvents.
+[09:04:15] [Server thread/INFO]: [AntiPopup] Hooked on 1.20.4
+[09:04:15] [Server thread/INFO]: [AntiPopup] Commands registered.
+[09:04:15] [Server thread/INFO]: [AntiPopup] Logger filter enabled.
+[09:04:15] [Server thread/INFO]: Running delayed init tasks
+[09:04:15] [Server thread/INFO]: Done (12.100s)! For help, type "help"
+[09:04:15] [Server thread/INFO]: Timings Reset
+[09:04:15] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[09:04:15] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[09:04:16] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[09:05:11] [User Authenticator #0/INFO]: UUID of player Suvrajit is 4e652eb0-f42e-34fb-8424-539c2da8221f
+[09:05:12] [Server thread/INFO]: Suvrajit joined the game
+[09:05:12] [Server thread/INFO]: Suvrajit[/[0:0:0:0:0:0:0:1%0]:45310] logged in with entity id 231 at ([world]72.47788626217275, 118.0, -62.34606430911909)
+[09:12:04] [Server thread/INFO]: Villager EntityVillager['Villager'/2580, uuid='2897af3b-06c9-49bc-b443-dd393871758e', l='ServerLevel[world]', x=113.37, y=79.00, z=419.72, cpos=[7, 26], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[09:12:35] [Server thread/INFO]: Suvrajit has made the advancement [Ice Bucket Challenge]
+[09:12:38] [Server thread/INFO]: Suvrajit has made the advancement [Diamonds!]
+[09:16:25] [Server thread/INFO]: Suvrajit has made the advancement [A Seedy Place]
+[09:20:47] [Server thread/INFO]: Villager EntityVillager['Villager'/5214, uuid='1fe327d6-b519-4d56-986f-1b5fc2e8604e', l='ServerLevel[world]', x=-195.63, y=71.00, z=774.72, cpos=[-13, 48], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[09:28:18] [Server thread/INFO]: Suvrajit has made the advancement [Monster Hunter]
+[09:30:20] [Server thread/INFO]: Villager EntityVillager['Villager'/9453, uuid='81cea63c-7520-452b-b3b8-c11fe71915b8', l='ServerLevel[world]', x=-391.37, y=69.00, z=1104.28, cpos=[-25, 69], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[09:49:09] [Server thread/INFO]: Suvrajit lost connection: Disconnected
+[09:49:09] [Server thread/INFO]: Suvrajit left the game
+[09:49:44] [User Authenticator #1/INFO]: UUID of player Suvrajit is 4e652eb0-f42e-34fb-8424-539c2da8221f
+[09:49:45] [Server thread/INFO]: Suvrajit joined the game
+[09:49:45] [Server thread/INFO]: Suvrajit[/[0:0:0:0:0:0:0:1%0]:52328] logged in with entity id 16820 at ([world]-546.3076335970392, 62.110764288902274, 2265.8505971124764)
+[09:52:13] [Server thread/INFO]: Suvrajit has made the advancement [Acquire Hardware]
+[09:53:03] [Server thread/INFO]: Suvrajit issued server command: /fix all
+[09:54:50] [Server thread/INFO]: Suvrajit has made the advancement [Isn't It Iron Pick]
+[10:11:13] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-497 (MC: 1.20.4) ---
+[10:11:13] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[10:11:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[10:11:13] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[10:11:13] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[10:11:13] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[10:11:13] [Paper Watchdog Thread/ERROR]: Entity UUID: 4e652eb0-f42e-34fb-8424-539c2da8221f
+[10:11:13] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (-1250.300000011921, 49.0, 3251.700859410124)
+[10:11:13] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.0, 0.0) (in blocks per tick)
+[10:11:13] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[-1250.6000000238419, 49.0, 3251.400859398203] -> [-1250.0, 49.60000002384186, 3252.000859422045]
+[10:11:13] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 120567
+[10:11:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[10:11:13] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[10:11:13] [Paper Watchdog Thread/ERROR]: 	PID: 36 | Suspended: false | Native: false | State: RUNNABLE
+[10:11:13] [Paper Watchdog Thread/ERROR]: 	Stack:
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.synth.ImprovedNoise.gradDot(ImprovedNoise.java:78)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.synth.ImprovedNoise.sampleAndLerp(ImprovedNoise.java:97)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.synth.ImprovedNoise.noise(ImprovedNoise.java:61)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.synth.BlendedNoise.compute(BlendedNoise.java:104)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:271)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:268)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.compute(DensityFunctions.java:881)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:849)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:274)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:849)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:849)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.fillArray(DensityFunctions.java:309)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.fillArray(DensityFunctions.java:854)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$TransformerWithContext.fillArray(DensityFunctions.java:1169)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$NoiseInterpolator.fillArray(NoiseChunk.java:767)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.fillSlice(NoiseChunk.java:241)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.advanceCellX(NoiseChunk.java:259)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:174)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:121)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:717)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:112)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:188)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:193)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:186)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda/0x00007964599279c8.get(Unknown Source)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$SynchronisedLong2BooleanMap.getOrCompute(StructureCheck.java:132)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:186)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:168)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:305)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:275)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:201)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:2094)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:95)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:35)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:26)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.compose(LootItemFunctions.java:62)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda/0x0000796458b1e9d8.apply(Unknown Source)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda/0x00007964597ae888.accept(Unknown Source)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:36)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:89)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:103)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:105)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:124)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:139)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:168)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:162)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.e_(RandomizableContainerBlockEntity.java:87)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:163)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1575)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:272)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1297)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:581)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1935)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:54)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda/0x0000796459756640.run(Unknown Source)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:149)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1465)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:123)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1442)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1365)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:133)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1343)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1232)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000796458b826e8.run(Unknown Source)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.3/java.lang.Thread.runWith(Thread.java:1596)
+[10:11:13] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.3/java.lang.Thread.run(Thread.java:1583)
+[10:11:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[10:11:13] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[10:11:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[10:11:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12330ms or 246 ticks behind
+[10:13:50] [Server thread/INFO]: Suvrajit lost connection: Disconnected
+[10:13:50] [Server thread/INFO]: Suvrajit left the game
+[10:13:59] [Server thread/INFO]: Stopping the server
+[10:13:59] [Server thread/INFO]: Stopping server
+[10:13:59] [Server thread/INFO]: [AntiPopup] Disabling AntiPopup v9
+[10:13:59] [Server thread/INFO]: [AntiPopup] Disabled PacketEvents.
+[10:13:59] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.2.0
+[10:13:59] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
+[10:13:59] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[10:13:59] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.1
+[10:13:59] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[10:13:59] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.1
+[10:13:59] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[10:13:59] [Server thread/INFO]: Saving players
+[10:13:59] [Server thread/INFO]: Saving worlds
+[10:13:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:13:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[10:13:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[10:13:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[10:14:00] [Server thread/INFO]: [ChunkHolderManager] Saved 453 block chunks, 196 entity chunks, 0 poi chunks in world 'world' in 0.31s
+[10:14:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:14:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:14:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[10:14:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[10:14:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:14:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[10:14:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:14:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:14:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[10:14:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[10:14:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[10:14:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[10:14:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:14:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:14:01] [Server thread/INFO]: Flushing Chunk IO
+[10:14:01] [Server thread/INFO]: Closing Thread Pool
+[10:14:01] [Server thread/INFO]: Closing Server
