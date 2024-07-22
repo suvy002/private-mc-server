@@ -1,0 +1,356 @@
+[07:34:20] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.11
+[07:34:20] [ForkJoinPool-1-worker-2/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 12
+[07:34:20] [main/WARN]: Warnings were found!
+ - Mod 'Spell Engine' (spell_engine) 0.14.3+1.20.1 recommends any version of trinkets, which is missing!
+	 - You should install any version of trinkets for the optimal experience.
+[07:34:20] [main/INFO]: Loading 94 mods:
+	- automobility 0.4.2+1.20.1-fabric
+	   \-- jsonem 0.2.1+1.20
+	- azurelibarmor 2.0.3
+	- bettercombat 1.8.5+1.20.1
+	- bookshelf 20.1.10
+	- cloth-config 11.1.118
+	   \-- cloth-basic-math 0.6.1
+	- dungeons_arise 2.1.56.1
+	- dupetrigger 1.13.7
+	- fabric-api 0.92.1+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.1+1802ada577
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabricloader 0.15.11
+	   \-- mixinextras 0.3.5
+	- fabrictailor 2.1.2
+	   |-- config2brigadier 1.2.3
+	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	- forgeconfigapiport 8.0.0
+	- fwaystones 3.3.2+mc1.20.1
+	- geckolib 4.4.4
+	   \-- com_eliotlash_mclib_mclib 20
+	- immersive_aircraft 1.0.1+1.20.1
+	   \-- org_mariuszgromada_math_mathparser_org-mxparser 5.2.1
+	- java 21
+	- man_of_many_planes 0.1.0+1.20.1
+	- minecraft 1.20.1
+	- mythicmounts 1.20.1-7.2
+	- origins 1.10.0
+	   |-- apoli 2.9.0
+	   |    |-- additionalentityattributes 1.3.0+1.20.0
+	   |    |-- calio 1.11.0
+	   |    |-- cardinal-components-base 5.2.1
+	   |    |-- cardinal-components-entity 5.2.1
+	   |    \-- playerabilitylib 1.8.0
+	   \-- reach-entity-attributes 2.4.0
+	- owo 0.11.0+1.20
+	   \-- blue_endless_jankson 1.2.2
+	- paraglider 20.1.3
+	- patchouli 1.20.1-84-FABRIC
+	   \-- fiber 0.23.0-2
+	- player-animator 1.0.2-rc1+1.20
+	- runes 0.9.11+1.20.1
+	- skinlayers3d 1.6.4
+	- spell_engine 0.14.3+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- spell_power 0.10.2+1.20.1
+	- wizards 1.2.0+1.20.1
+	   |-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	   \-- structure_pool_api 1.0+1.20.1
+	- yet_another_config_lib_v3 3.4.2+1.20.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.10.0
+	   |-- com_twelvemonkeys_common_common-io 3.10.0
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[07:34:20] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/private-mc-server/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[07:34:20] [main/INFO]: Compatibility level set to JAVA_17
+[07:34:20] [main/WARN]: Reference map 'mythic-mounts-refmap.json' for mythic-mounts.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:34:21] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[07:34:21] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[07:34:28] [main/INFO]: Apoli 2.9.0 has initialized. Ready to power up your game!
+[07:34:28] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[07:34:28] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[07:34:28] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[07:34:28] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[07:34:28] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[07:34:28] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[07:34:28] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[07:34:28] [main/INFO]: Loaded C2B lib.
+[07:34:28] [main/INFO]: Dupe Trigger is ready.
+[07:34:28] [main/INFO]: Is initializing.
+[07:34:28] [main/INFO]: Has successfully been initialized.
+[07:34:28] [main/ERROR]: No data fixer registered for immersive_aircraft:gyrodyne
+[07:34:28] [main/ERROR]: No data fixer registered for immersive_aircraft:biplane
+[07:34:28] [main/ERROR]: No data fixer registered for immersive_aircraft:airship
+[07:34:28] [main/ERROR]: No data fixer registered for immersive_aircraft:cargo_airship
+[07:34:28] [main/ERROR]: No data fixer registered for immersive_aircraft:warship
+[07:34:28] [main/ERROR]: No data fixer registered for immersive_aircraft:quadrocopter
+[07:34:28] [main/ERROR]: No data fixer registered for immersive_aircraft:bullet
+[07:34:28] [main/ERROR]: No data fixer registered for immersive_aircraft:tiny_tnt
+[07:34:28] [main/ERROR]: No data fixer registered for man_of_many_planes:scarlet_biplane
+[07:34:28] [main/ERROR]: No data fixer registered for man_of_many_planes:economy_plane
+[07:34:29] [main/INFO]: Origins 1.10.0 is initializing. Have fun!
+[07:34:29] [main/INFO]: forge?
+[07:34:29] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07:34:30] [main/WARN]: Adding spell_power:arcane to saved/remote registry.
+[07:34:30] [main/WARN]: Adding spell_power:fire to saved/remote registry.
+[07:34:30] [main/WARN]: Adding spell_power:frost to saved/remote registry.
+[07:34:30] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[07:34:31] [main/INFO]: Loaded 10 recipes
+[07:34:31] [main/INFO]: Loaded 1351 advancements
+[07:34:31] [main/INFO]: Finished loading powers from data files. Registry contains 76 powers.
+[07:34:31] [main/INFO]: Finished loading origins from data files. Registry contains 11 origins.
+[07:34:31] [main/INFO]: Trying to read layer file: origins:origin
+[07:34:31] [main/INFO]: Finished loading origin layers from data files. Read 1 layers.
+[07:34:31] [main/INFO]: Loaded 0 global power sets.
+[07:34:32] [main/INFO]: Applied 178 biome modifications to 57 of 64 new biomes in 22.10 ms
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/flower_forest_japanese/houses
+[07:34:32] [Server thread/ERROR]: Cannot add to kaisyn:village/flower_forest_japanese/houses as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village ctov:village/desert_oasis/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/desert_oasis/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/mountain_alpine/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/mountain_alpine/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/beach_lighthouse/side
+[07:34:32] [Server thread/ERROR]: Cannot add to kaisyn:village/beach_lighthouse/side as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/savanna_na/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/savanna_na/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/swamp/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/swamp/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/savanna/houses
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/snowy_igloo/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/snowy_igloo/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/nilotic/houses
+[07:34:32] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/nilotic/houses as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/badlands_pueblo/houses
+[07:34:32] [Server thread/ERROR]: Cannot add to kaisyn:village/badlands_pueblo/houses as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/tudor/houses
+[07:34:32] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/tudor/houses as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/mushroom/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/mushroom/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/mediterranean/houses/regular
+[07:34:32] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/mediterranean/houses/regular as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/taiga/houses
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/birch_forest_romanian/houses
+[07:34:32] [Server thread/ERROR]: Cannot add to kaisyn:village/birch_forest_romanian/houses as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:red_desert_village_waystone to village ctov:village/mesa_fortified/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/mesa_fortified/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/classic/houses
+[07:34:32] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/classic/houses as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/wandering_trader_camp/side
+[07:34:32] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/wandering_trader_camp/side as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village ctov:village/desert/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/desert/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/rustic/houses
+[07:34:32] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/rustic/houses as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village minecraft:village/desert/houses
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/savanna/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/savanna/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village ctov:village/beach/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/beach/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/plains/houses
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/taiga/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/taiga/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:stone_brick_village_waystone to village ctov:village/underground/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/underground/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:red_desert_village_waystone to village ctov:village/mesa/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/mesa/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/grove_villager_outpost/decor
+[07:34:32] [Server thread/ERROR]: Cannot add to kaisyn:village/grove_villager_outpost/decor as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:mossy_stone_brick_village_waystone to village ctov:village/jungle/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/jungle/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/mountain/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/mountain/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/halloween/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/halloween/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/jungle_tribal/houses
+[07:34:32] [Server thread/ERROR]: Cannot add to kaisyn:village/jungle_tribal/houses as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/iberian/houses
+[07:34:32] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/iberian/houses as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/christmas/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/christmas/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/snowy/houses
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/plains/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/plains/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/swamp_fortified/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/swamp_fortified/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/plains_fortified/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/plains_fortified/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/taiga_fortified/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/taiga_fortified/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/swedish/houses
+[07:34:32] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/swedish/houses as it cannot be found!
+[07:34:32] [Server thread/INFO]: Adding waystone fwaystones:mossy_stone_brick_village_waystone to village ctov:village/jungle_tree/house
+[07:34:32] [Server thread/ERROR]: Cannot add to ctov:village/jungle_tree/house as it cannot be found!
+[07:34:32] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[07:34:32] [Server thread/INFO]: Loading properties
+[07:34:32] [Server thread/INFO]: Default game type: SURVIVAL
+[07:34:32] [Server thread/INFO]: Generating keypair
+[07:34:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:34:32] [Server thread/INFO]: Using epoll channel type
+[07:34:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:34:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:34:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:34:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:34:32] [Server thread/INFO]: Preparing level "world"
+[07:34:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:34:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:34:39] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[07:34:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[07:34:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[07:34:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:34:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:34:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[07:34:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:34:39] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[07:34:40] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[07:34:40] [Server thread/INFO]: Time elapsed: 4611 ms
+[07:34:40] [Server thread/INFO]: Done (7.784s)! For help, type "help"
+[07:34:40] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 15773 bytes (in 2 string chunks with the size of 10000)
+[07:34:40] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 52190 bytes (in 6 string chunks with the size of 10000)
+[07:34:42] [Server thread/INFO]: Suvrajit[/[0:0:0:0:0:0:0:1%0]:57980] logged in with entity id 1 at (-7.5, 72.0, 8.5)
+[07:34:42] [Server thread/INFO]: Sending server config values to client
+[07:34:43] [Server thread/INFO]: Suvrajit joined the game
+[07:34:43] [Netty Epoll Server IO #4/INFO]: Receiving client config
+[07:34:46] [Server thread/INFO]: Player literal{Suvrajit} chose Origin: origins:human, for layer: origins:origin
+[07:36:54] [Server thread/INFO]: Suvrajit lost connection: Disconnected
+[07:36:54] [Server thread/INFO]: Suvrajit left the game
+[07:37:00] [Server thread/INFO]: eagledares1[/[0:0:0:0:0:0:0:1%0]:55546] logged in with entity id 269 at (5.5, 72.0, 1.5)
+[07:37:00] [Server thread/INFO]: Sending server config values to client
+[07:37:00] [Netty Epoll Server IO #3/INFO]: Receiving client config
+[07:37:00] [Server thread/INFO]: eagledares1 joined the game
+[07:37:02] [Server thread/INFO]: Player literal{eagledares1} chose Origin: origins:human, for layer: origins:origin
+[07:37:32] [Server thread/INFO]: eagledares1 lost connection: Disconnected
+[07:37:32] [Server thread/INFO]: eagledares1 left the game
+[07:38:09] [Server thread/INFO]: Suvrajit[/[0:0:0:0:0:0:0:1%0]:36150] logged in with entity id 321 at (-6.369453199604575, 72.0, 15.276436225680959)
+[07:38:09] [Server thread/INFO]: Sending server config values to client
+[07:38:09] [Server thread/INFO]: Suvrajit joined the game
+[07:38:09] [Netty Epoll Server IO #2/INFO]: Receiving client config
+[07:38:17] [Server thread/INFO]: Made Suvrajit a server operator
+[07:38:29] [Server thread/INFO]: [Suvrajit: Whitelist is now turned on]
+[07:38:29] [Server thread/INFO]: Suvrajit lost connection: You are not white-listed on this server!
+[07:38:29] [Server thread/INFO]: Suvrajit left the game
+[07:38:32] [Server thread/INFO]: Suvrajit[/[0:0:0:0:0:0:0:1%0]:40908] logged in with entity id 360 at (-6.369453199604575, 72.0, 15.276436225680959)
+[07:38:32] [Server thread/INFO]: Sending server config values to client
+[07:38:32] [Server thread/INFO]: Suvrajit joined the game
+[07:38:32] [Netty Epoll Server IO #6/INFO]: Receiving client config
+[07:38:39] [Server thread/INFO]: Suvrajit lost connection: Disconnected
+[07:38:39] [Server thread/INFO]: Suvrajit left the game
+[07:38:43] [Server thread/INFO]: eagledares1[/[0:0:0:0:0:0:0:1%0]:52044] logged in with entity id 374 at (5.5, 72.0, 1.5)
+[07:38:43] [Server thread/INFO]: Sending server config values to client
+[07:38:43] [Server thread/INFO]: eagledares1 joined the game
+[07:38:43] [Netty Epoll Server IO #5/INFO]: Receiving client config
+[07:38:45] [Server thread/INFO]: eagledares1 lost connection: Disconnected
+[07:38:45] [Server thread/INFO]: eagledares1 left the game
+[07:38:49] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@e876a06[id=b78ab76e-ca48-31e1-a3f9-6806ceb3b549,name=XNecron_,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:58122): You are not white-listed on this server!
+[07:38:49] [Server thread/INFO]: com.mojang.authlib.GameProfile@e876a06[id=b78ab76e-ca48-31e1-a3f9-6806ceb3b549,name=XNecron_,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:58122) lost connection: You are not white-listed on this server!
+[07:38:49] [Server thread/WARN]: handleDisconnection() called twice
+[07:38:55] [Server thread/INFO]: Suvrajit[/[0:0:0:0:0:0:0:1%0]:58134] logged in with entity id 382 at (-6.369453199604575, 72.0, 15.276436225680959)
+[07:38:55] [Server thread/INFO]: Sending server config values to client
+[07:38:55] [Server thread/INFO]: Suvrajit joined the game
+[07:38:55] [Netty Epoll Server IO #2/INFO]: Receiving client config
+[07:41:40] [Server thread/INFO]: [Suvrajit: Set own game mode to Creative Mode]
+[07:41:48] [Server thread/INFO]: [Suvrajit: Made list a server operator]
+[07:41:54] [Server thread/INFO]: [Suvrajit: Made list no longer a server operator]
+[07:41:54] [Server thread/INFO]: Suvrajit lost connection: You are not white-listed on this server!
+[07:41:54] [Server thread/INFO]: Suvrajit left the game
+[07:41:58] [Server thread/INFO]: Suvrajit[/[0:0:0:0:0:0:0:1%0]:56662] logged in with entity id 703 at (-5.63795316268611, 72.0, 6.974772667321182)
+[07:41:58] [Server thread/INFO]: Sending server config values to client
+[07:41:58] [Server thread/INFO]: Suvrajit joined the game
+[07:41:58] [Netty Epoll Server IO #3/INFO]: Receiving client config
+[07:42:11] [Server thread/INFO]: Suvrajit lost connection: Disconnected
+[07:42:11] [Server thread/INFO]: Suvrajit left the game
+[07:42:13] [Server thread/INFO]: Suvrajit[/[0:0:0:0:0:0:0:1%0]:38236] logged in with entity id 724 at (-5.63795316268611, 72.0, 6.974772667321182)
+[07:42:13] [Server thread/INFO]: Sending server config values to client
+[07:42:13] [Server thread/INFO]: Suvrajit joined the game
+[07:42:13] [Netty Epoll Server IO #7/INFO]: Receiving client config
+[07:44:49] [Server thread/INFO]: [Suvrajit: The difficulty has been set to Peaceful]
+[08:12:52] [Server thread/INFO]: [Suvrajit: Gamerule randomTickSpeed is now set to: -20]
+[08:22:20] [Server thread/WARN]: Scarlet Biplane (vehicle of Suvrajit) moved too quickly! 2.002213851750753,-0.7131644286259586,10.180423691812166
+[08:22:20] [Server thread/WARN]: Scarlet Biplane (vehicle of Suvrajit) moved too quickly! 2.0933633580177826,-0.7684179398867741,10.643868428999667
+[08:22:20] [Server thread/WARN]: Scarlet Biplane (vehicle of Suvrajit) moved too quickly! 2.1839466904632303,-0.8249815641532905,11.104434172813399
+[08:22:20] [Server thread/WARN]: Scarlet Biplane (vehicle of Suvrajit) moved too quickly! 2.27399384671142,-0.8827894232161952,11.562273489387508
+[08:22:20] [Server thread/WARN]: Scarlet Biplane (vehicle of Suvrajit) moved too quickly! 2.363533673072638,-0.9417781695973133,12.017533077961843
+[08:23:15] [Worker-Main-35/WARN]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[08:23:15] [Worker-Main-35/WARN]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[08:24:35] [Server thread/WARN]: Scarlet Biplane (vehicle of Suvrajit) moved too quickly! 10.756561518788317,0.004311423618787558,1.0235404117229336
+[08:24:35] [Server thread/WARN]: Scarlet Biplane (vehicle of Suvrajit) moved too quickly! 12.313385894143039,0.004863352558274414,1.1716800117451385
+[08:24:35] [Server thread/WARN]: Scarlet Biplane (vehicle of Suvrajit) moved too quickly! 13.87483455235531,0.005400377625775832,1.3202596359301424
+[08:24:35] [Server thread/WARN]: Scarlet Biplane (vehicle of Suvrajit) moved too quickly! 15.440776441110529,0.005922851048154598,1.4692668142301955
+[08:24:35] [Server thread/WARN]: Scarlet Biplane (vehicle of Suvrajit) moved too quickly! 17.011083342087204,0.006431119664767948,1.6186893456601865
+[08:24:35] [Server thread/WARN]: Scarlet Biplane (vehicle of Suvrajit) moved too quickly! 18.58563018914117,0.006925524913981462,1.7685153296433782
+[08:24:35] [Server thread/WARN]: Scarlet Biplane (vehicle of Suvrajit) moved too quickly! 20.164295364894997,0.007406402809891688,1.918733193377193
+[08:24:35] [Server thread/WARN]: Scarlet Biplane (vehicle of Suvrajit) moved too quickly! 21.74696024638388,0.007874083752923866,2.0693316495394356
+[08:24:35] [Server thread/WARN]: Scarlet Biplane (vehicle of Suvrajit) moved too quickly! 23.333509151779367,0.008328892460070847,2.220299690216052
+[08:24:35] [Server thread/WARN]: Scarlet Biplane (vehicle of Suvrajit) moved too quickly! 24.92382926308187,0.008771147894265141,2.371626580272732
+[08:34:30] [Server thread/INFO]: [Suvrajit: Set own game mode to Survival Mode]
+[08:34:34] [Server thread/INFO]: Suvrajit has made the advancement [Best Friends Forever]
+[08:34:47] [Server thread/INFO]: [Suvrajit: Set own game mode to Creative Mode]
+[08:37:09] [Server thread/WARN]: UUID of added entity already exists: class_1533['Item Frame'/16844, l='ServerLevel[world]', x=1639.50, y=63.50, z=-106.97]
+[08:37:09] [Server thread/WARN]: UUID of added entity already exists: class_1533['Item Frame'/16845, l='ServerLevel[world]', x=1639.50, y=63.50, z=-108.03]
+[08:37:10] [Server thread/WARN]: UUID of added entity already exists: class_1533['Item Frame'/16855, l='ServerLevel[world]', x=1639.50, y=63.50, z=-126.97]
+[08:37:11] [Server thread/WARN]: UUID of added entity already exists: class_1533['Item Frame'/16866, l='ServerLevel[world]', x=1639.50, y=63.50, z=-128.03]
+[08:37:20] [Server thread/WARN]: UUID of added entity already exists: class_1472['Sheep'/16970, l='ServerLevel[world]', x=1737.60, y=63.50, z=-322.64]
+[08:40:45] [Server thread/INFO]: Suvrajit lost connection: Disconnected
+[08:40:45] [Server thread/INFO]: Suvrajit left the game
+[08:42:44] [Server thread/INFO]: Stopping the server
+[08:42:44] [Server thread/INFO]: Stopping server
+[08:42:44] [Server thread/INFO]: Saving players
+[08:42:44] [Server thread/INFO]: Saving worlds
+[08:42:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:42:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08:42:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08:42:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:42:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:42:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:42:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
